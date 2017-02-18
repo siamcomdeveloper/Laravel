@@ -106,7 +106,7 @@
         <div id="style-well-even" class="well">
             <div class="media">
                 <a class="pull-left" href="#">
-                    <img class="media-object" src="http://lorempixel.com/320/240?random2">
+                    <img class="media-object" src="http://lorempixel.com/320/240?random3">
   		</a>
   		<div class="media-body">
                     <h4 class="media-heading">Receta 1</h4>
