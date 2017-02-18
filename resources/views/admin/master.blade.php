@@ -50,12 +50,9 @@
         padding: 25px;
     }
     
-    .table table-striped{
-        background: red !important;
-    }
-    
-    .table table-striped td{
-        background: blue !important;
+    .table-striped>tbody>tr:nth-child(odd)>td, 
+    .table-striped>tbody>tr:nth-child(odd)>th {
+        background-color: red;
     }
 </style>
 </head>
