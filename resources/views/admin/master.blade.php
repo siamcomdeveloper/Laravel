@@ -55,11 +55,11 @@
        box-shadow: 3px 3px 10px darkgray !important;
     }
     
-    #style-well-even{
+    #style-well1{
         background-color: #F2F4F6;
     }
     
-    #style-well-odd{
+    #style-well2{
         background-color: white;
     }
     
@@ -110,7 +110,7 @@
         @yield('content')
     </section>
     <footer>
-        <div id="style-well-odd" class="well">
+        <div id="style-well1" class="well">
             <div class="media">
                 <a class="pull-left" href="#">
                     <img class="topic-img" src="http://lorempixel.com/320/240?random2">
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div id="style-well-even" class="well">
+        <div id="style-well2" class="well">
             <div class="media">
                 <a class="pull-left" href="#">
                     <img class="topic-img" src="http://lorempixel.com/320/240?random3">
