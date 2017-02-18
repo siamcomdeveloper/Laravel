@@ -2,4 +2,3 @@
 function myfunc(){
     return 'Siam';
 }
-?>
