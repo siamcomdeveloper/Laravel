@@ -18,6 +18,12 @@ Hello : {!! '<p>' .  $name. ' '. $last_name . '</p>' !!}
 ?>
 
 <hr/>
+foreach
 @foreach($people as $person)
     {{ $person }}<br/>
 @endforeach
+<hr/>
+for
+@for($i = 0; $i < sizeof($people); $i++)
+    {{ $people[$i] }}<br/>
+@endfor
