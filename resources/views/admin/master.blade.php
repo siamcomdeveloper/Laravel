@@ -52,11 +52,11 @@
     
     .well{
        margin: 20px !important;
-       box-shadow: 3px 3px 10px gray !important;
+       box-shadow: 3px 3px 10px darkgray !important;
     }
     
     #style-well-even{
-        
+        background-color: darkgray;
     }
     
     #style-well-odd{
