@@ -79,7 +79,7 @@
     
     .media-heading{
        padding-bottom: 10px;
-       font-size: 1em;
+       font-size: 1.5em;
        font-weight: bold !important;
        font-family: Verdana, sans-serif;
     }
