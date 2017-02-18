@@ -31,7 +31,10 @@
                     {{ $obj->content }}
                 </td>
                 <td>
-                    
+                    <form action="{{url('admin/blog')}}" method="post">
+                        {{ method_field('DELETE') }}
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
                 </td>
             </tr>
             @endforeach
