@@ -58,8 +58,7 @@
         @yield('content')
     </section>
     <footer>
-        <div class="row">
-            <table class="table table-striped">
+        <table class="table table-striped">
             <tr>
                 <td>
                     Pic1
@@ -83,7 +82,6 @@
                 </td>
             </tr>
         </table>
-    </div>
         
         <nav aria-label="Page navigation" class="text-center">
             <ul class="pagination">
