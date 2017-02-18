@@ -35,9 +35,9 @@
     }
     
     .pagination ul li {
-        font-family: bebas-neue;
-        font: bold;
-        color: black;
+        font-family: bebas-neue !important;
+        font: bold !important;
+        color: black !important;
     }
     
     .pagination>li.active>a {
