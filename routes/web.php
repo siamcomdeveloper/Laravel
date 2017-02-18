@@ -20,11 +20,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Transfer data
-
 Route::get('/about', function () {
+    //Transfer data type 1
+    /*
     $data['name'] = 'Siam';
     $data['last_name'] = 'Nganphairojsakun';
     return view('about',$data);
+    */
+    //Transfer data type 2
+    $name = 'Siam';
+    return view('about',compact('name'));
 });
 
