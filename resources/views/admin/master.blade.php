@@ -32,7 +32,7 @@
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
-        font: bold Georgia, serif !important;
+        font: bold 12px/30px Georgia, serif !important;
         color: black !important;
     }
     
