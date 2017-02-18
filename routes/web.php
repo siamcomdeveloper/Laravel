@@ -25,11 +25,13 @@ Route::get('/', function (){
 
 //Use sometime
 //controll@function
+/*
 Route::get('/', 'BlogController@index');
 Route::get('/extend', 'BlogController@extend');
 
 //Use a lot resource(View,Controller)
 Route::resource('/admin/blog','Admin\BlogController');
+*/
 /*Route::get('/', function () {
     return view('welcome');
 });*/
