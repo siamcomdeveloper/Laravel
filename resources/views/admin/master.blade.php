@@ -52,7 +52,7 @@
     
     .well{
        margin: 20px !important;
-       box-shadow: 5px 5px 2px darkgray;
+       box-shadow: 5px 5px 2px darkgray !important;
     }
     
     #style-well-odd{
