@@ -38,6 +38,13 @@
         background: red !important;
     }
     
+    .pagination il.active, .pagination il a:hover {
+        background: blue !important;
+    }
+    
+    .active{
+        background: red !important;
+    }
     .pagination {
         margin: 0;
     }
