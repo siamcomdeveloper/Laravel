@@ -29,6 +29,7 @@
         margin-right: 10px;
     }
     .pagination > li > a, .pagination > li > span {
+        font-style: bold;
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
