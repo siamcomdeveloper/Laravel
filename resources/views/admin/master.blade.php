@@ -34,17 +34,11 @@
         border: 0 !important;
     }
     
-    .pagination ul.active, .pagination ul a:hover {
-        background: red;
-    }
-    
-    .pagination il.active, .pagination il a:hover {
-        background: blue;
-    }
-    
-    .active{
-        background: red;
-    }
+    .pagination>li.active>a {
+        background: purple;
+        color: #fff;
+     }
+     
     .pagination {
         margin: 0;
     }
