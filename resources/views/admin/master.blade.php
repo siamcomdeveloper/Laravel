@@ -55,11 +55,11 @@
        box-shadow: 3px 3px 10px darkgray !important;
     }
     
-    #style-well-odd{
+    #style-well-even{
         //background-color: darkgray;
     }
     
-    #style-well-even{
+    #style-well-odd{
         background-color: white;
     }
     
@@ -86,24 +86,10 @@
                     <img class="topic-img" src="http://lorempixel.com/320/240?random2">
   		</a>
   		<div class="media-body">
-                    <h4 class="media-heading">Receta 1</h4>
-                    <p class="text-right">By Francisco</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                    Aliquam in felis sit amet augue.</p>
+                    <h4 class="post-title">Let's see this awesome post!</h4>
+                    <p class="post-body">I'm really glad to see this forums popular!</p>
                     <ul class="list-inline list-unstyled">
                         <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
-                        <li>|</li>
-                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
-                        <li>|</li>
-                        <li>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -114,24 +100,10 @@
                     <img class="topic-img" src="http://lorempixel.com/320/240?random3">
   		</a>
   		<div class="media-body">
-                    <h4 class="media-heading">Receta 1</h4>
-                    <p class="text-right">By Francisco</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                    Aliquam in felis sit amet augue.</p>
+                    <h4 class="post-title">When will the concert be held?</h4>
+                    <p class="post-body">After day, don't sixth were divide creepeth living him it heaven moveth of male man rule, made gathered cattle after. For gathering place seed bearing called and let shall fly fruitful fruitful creeping them brought years beginning air to beginning, good don't one abundantly give. That were blessed made moving light saw place they're. Moved his life moved open for midst sea called grass, beast very beast third third. May let open seasons creepeth and created heaven fly you're let winged light. Fruit after. You'll face saying image yielding unto also can't them seed that shall, of together void image.</p>
                     <ul class="list-inline list-unstyled">
                         <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
-                        <li>|</li>
-                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
-                        <li>|</li>
-                        <li>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                        </li>
                     </ul>
                 </div>
             </div>
