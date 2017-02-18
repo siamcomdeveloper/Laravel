@@ -64,8 +64,8 @@
     }
     
     .topic-img{
-       height : 200px;
-       width  : 300px;
+       height : 160px;
+       width  : 240px;
     }
     
 </style>
