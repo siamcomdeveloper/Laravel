@@ -42,6 +42,6 @@ Route::get('/about', function () {
 });
 
 //Route parameter type 1 (require parameter)
-Route::get('/plus/{num1?}', function ($num1) {
-    //echo $num1;
+Route::get('/plus/{num1?}/{num2?}', function ($num1=0,$num2=0) {
+    echo $num1 . '+' . $num2 . '=' . ($num1+$num2);
 });
