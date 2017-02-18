@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Laravel</title>
-<style>
+<style media="screen">
+    main{
+        padding: 50px;
+    }
     header{
         padding : 25px;
         background: red;

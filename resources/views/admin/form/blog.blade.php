@@ -3,7 +3,8 @@
 @section('content')
 <div class="container">
     <div class='row'>
-        <form>
+        <h3>Form Create Content</h3>
+        <form action="{{url('admin/blog'}}" method="{{$method}}">
             <div class="form-group">
               <label for="topic">Topic</label>
               <input type="text" class="form-control" placeholder="Topic">
