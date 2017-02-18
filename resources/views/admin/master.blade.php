@@ -86,14 +86,16 @@
     .post-body{
        padding-bottom: 10px;
        font-weight: bold !important;
-       font-family: cursive, sans-serif !important;
+       font-family: Verdana, sans-serif !important;
     }
     
     .post-time{
         color: gray;
         font-style: italic;
         font-weight: bold;
-        font-family: Lucida Console, Monospace;
+        font-size: 1.5em;
+        font-family: Verdana, sans-serif;
+        //font-family: Lucida Console, Monospace;
     }
 </style>
 </head>
