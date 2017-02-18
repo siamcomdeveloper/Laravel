@@ -41,9 +41,7 @@ Route::get('/about', function () {
     return view('about')->withName('Siam')->withLastName('Nganphairojsakun');
 });
 
-Route::get('/plus', function () {
-    //Route parameter type 1
-    $data['name'] = 'Siam';
-    $data['last_name'] = 'Nganphairojsakun';
-    return view('plus',$data);
+//Route parameter type 1 (require parameter)
+Route::get('/plus/$num1?', function ($num1) {
+    echo $num1;
 });
