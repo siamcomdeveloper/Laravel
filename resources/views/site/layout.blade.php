@@ -16,6 +16,9 @@
         color: #FFF;
         text-align: center;
     }
+    section{
+        padding: 25px;
+    }
 </style>
 </head>
 
@@ -24,7 +27,9 @@
         Header
     </header>
     <section id="main">
-        
+        Test Text Section Main Test Text Section Main
+        Test Text Section Main Test Text Section Main
+        Test Text Section Main Test Text Section Main
     </section>
     <footer>
         Footer
