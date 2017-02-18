@@ -24,6 +24,7 @@ Route::get('/about', function () {
     //Transfer data type 1
     $data['name'] = 'Siam';
     $data['last_name'] = 'Nganphairojsakun';
+    $data['people'] = ['si','am','kub'];
     return view('about',$data);
 });
 //Route::get('/about', function () {

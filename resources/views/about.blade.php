@@ -16,3 +16,8 @@ Hello : {!! '<p>' .  $name. ' '. $last_name . '</p>' !!}
         echo 'false';
     }
 ?>
+
+<hr/>
+@foreach($people as $person)
+    {{ $person }}<br/>
+@endfor
