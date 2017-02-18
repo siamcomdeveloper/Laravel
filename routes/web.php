@@ -22,6 +22,12 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     //Transfer data type 1
+    $data['name'] = 'Siam';
+    $data['last_name'] = 'Nganphairojsakun';
+    return view('about',$data);
+});
+//Route::get('/about', function () {
+    //Transfer data type 1
     /*
     $data['name'] = 'Siam';
     $data['last_name'] = 'Nganphairojsakun';
@@ -39,7 +45,7 @@ Route::get('/about', function () {
     //
     //Transfer data type 4
     return view('about')->withName('Siam')->withLastName('Nganphairojsakun');
-});
+//});
 
 //Route parameter type 1 (require parameter)
 Route::get('/plus/{num1?}/{num2?}', function ($num1=0,$num2=0) {
