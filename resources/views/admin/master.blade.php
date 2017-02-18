@@ -46,11 +46,6 @@
         margin: 0;
     }
     
-    .well{
-        padding-left: 50px !important;
-        padding-right: 100px !important;
-    }
-    
 </style>
 </head>
 
@@ -63,34 +58,33 @@
         @yield('content')
     </section>
     <footer>
-        <div class="well">
-            <div class="media">
-                <a class="pull-left" href="#">
-                    <img class="media-object" src="http://placekitten.com/150/150">
-  		</a>
-  		<div class="media-body">
-                    <h4 class="media-heading">Receta 1</h4>
-                    <p class="text-right">By Francisco</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                    Aliquam in felis sit amet augue.</p>
-                    <ul class="list-inline list-unstyled">
-                        <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
-                        <li>|</li>
-                        <span><i class="glyphicon glyphicon-comment"></i> 2 comments</span>
-                        <li>|</li>
-                        <li>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star-empty"></span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <div class="row">
+        <a class="btn btn-primary" href="{{url('admin/blog/create')}}">Create</a>
+        <table class="table table-striped">
+            <tr>
+                <td>
+                    Pic1
+                </td>
+                <td>
+                    Content1
+                </td>
+                <td>
+                    User1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pic2
+                </td>
+                <td>
+                    Content2
+                </td>
+                <td>
+                    User2
+                </td>
+            </tr>
+        </table>
+    </div>
         
         <nav aria-label="Page navigation" class="text-center">
             <ul class="pagination">
