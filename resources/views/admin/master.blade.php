@@ -86,7 +86,7 @@
     
     .post-body{
        padding-bottom: 10px;
-       font-size: 1.2em;
+       font-size: 1.3em;
        font-weight: bold !important;
        font-family: Arial Narrow, sans-serif;
     }
