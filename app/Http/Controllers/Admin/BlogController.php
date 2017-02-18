@@ -100,7 +100,7 @@ class BlogController extends Controller
         //Search by id & Update
         $obj = Blog::find($id);
         $obj->topic = $request['topic'];
-        $obj->topic = $request['content'];
+        $obj->content = $request['content'];
         $obj->save();
         return redirect(url('admin/blog'));
     }

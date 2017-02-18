@@ -31,14 +31,11 @@
                     {{ $row->content }}
                 </td>
                 <td>
+                    <a href="{{url('admin/blog/'.$row->id.'/edit')}}">Edit</a>
                     <form action="{{url('admin/blog/'.$row->id)}}" method="post" onsubmit="return(confirm('Do you want to delete this ?'))">
                         {{ method_field('DELETE') }}
                         {{ csrf_field() }}
                     <button type="submit" class="btn btn-danger">Delete</button>
-                    </form>
-                    <a href="{{url('admin/blog/'.$row->id.'/edit')}}">Edit</a>
-                    <form action="{{url('admin/blog/'.$row->id.'/edit')}}" method="get" onsubmit="return(confirm('Do you want to edit this ?'))">
-                        {{ csrf_field() }}
                     </form>
                 </td>
             </tr>
