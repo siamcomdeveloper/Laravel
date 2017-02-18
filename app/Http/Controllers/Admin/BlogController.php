@@ -54,6 +54,7 @@ class BlogController extends Controller
         $obj->user_id = 1;
         //$obj->user_id = $request['user_id'];
         $obj->save();
+        return redirect(url('admin/blog'));
     }
 
     /**
