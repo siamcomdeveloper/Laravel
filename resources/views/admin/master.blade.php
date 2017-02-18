@@ -71,7 +71,7 @@
     </section>
     <footer>
     <div class="blog">
-        <table class="table table-striped table-blog">
+        <table class="table-striped">
             <tr>
                 <td>
                     Pic1
