@@ -54,6 +54,9 @@
        margin: 20px !important;
     }
     
+    #well2{
+        background-color: red !important;
+    }
 </style>
 </head>
 
@@ -94,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <div class="well">
+        <div id="well2" class="well">
             <div class="media">
                 <a class="pull-left" href="#">
                     <img class="media-object" src="http://placekitten.com/150/150">
