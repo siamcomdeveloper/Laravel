@@ -28,7 +28,13 @@ Route::get('/about', function () {
     return view('about',$data);
     */
     //Transfer data type 2
+    /*
     $name = 'Siam';
+    //compact process below
+    //compact('name')) -> ['name' => 'Siam'];
     return view('about',compact('name'));
+    */
+    //Transfer data type 3
+    return view('about')->with('name','Siam Ngan');
 });
 
