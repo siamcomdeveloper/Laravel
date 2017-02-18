@@ -56,7 +56,7 @@
     }
     
     #style-well-even{
-        background-color: whitesmoke;
+        background-color: #9d9d9d;
     }
     
     #style-well-odd{
