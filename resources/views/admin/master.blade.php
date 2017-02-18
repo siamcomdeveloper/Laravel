@@ -28,6 +28,14 @@
     #edit{
         margin-right: 10px;
     }
+    .pagination > li > a, .pagination > li > span {
+        border-radius: 50% !important;
+        margin: 0 5px;
+    }
+
+    .pagination {
+        margin: 0;
+    }
 </style>
 </head>
 
