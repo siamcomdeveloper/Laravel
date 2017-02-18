@@ -46,6 +46,9 @@
         margin: 0;
     }
     
+    .blog{
+        padding: 50px;
+    }
 </style>
 </head>
 
@@ -58,6 +61,7 @@
         @yield('content')
     </section>
     <footer>
+    <div class="blog">
         <table class="table table-striped">
             <tr>
                 <td>
@@ -82,7 +86,7 @@
                 </td>
             </tr>
         </table>
-        
+    </div>
         <nav aria-label="Page navigation" class="text-center">
             <ul class="pagination">
                <li><a href="#">Previous</a></li>
