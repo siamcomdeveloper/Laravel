@@ -56,11 +56,11 @@
     }
     
     #style-well1{
-        background-color: #F2F4F6;
+        background-color: white;
     }
     
     #style-well2{
-        background-color: white;
+        background-color: #F2F4F6;
     }
     
     .topic-img{
