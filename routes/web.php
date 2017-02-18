@@ -38,6 +38,6 @@ Route::get('/about', function () {
     //return view('about')->with('name','Siam')->with('last_name','Nganphairojsakun');
     //
     //Transfer data type 4
-    return view('about')->withName('Siam')->withLast_name('Nganphai');
+    return view('about')->withName('Siam')->withLast_Name('Nganphai');
 });
 
