@@ -1,1 +1,1 @@
-Hello, {{ $name. ' ' .$last_name }}
+Hello, {{ $name }}
