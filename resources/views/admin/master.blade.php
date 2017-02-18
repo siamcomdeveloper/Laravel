@@ -29,11 +29,15 @@
         margin-right: 10px;
     }
     .pagination > li > a, .pagination > li > span {
-        font: bold;
-        color: black;
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
+    }
+    
+    .pagination ul li {
+        font-family: bebas-neue;
+        font: bold;
+        color: black;
     }
     
     .pagination>li.active>a {
