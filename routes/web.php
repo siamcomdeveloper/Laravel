@@ -20,7 +20,9 @@
 Route::get('/', 'BlogController@index');
 Route::get('/extend', 'BlogController@extend');
 
-Route::resource('/admin/blog','Admin\BlogController');
+Route::resource('/admin/blog','Admin\BlogController', ['only' => [
+    'index', 'show'
+]]);
 /*Route::get('/', function () {
     return view('welcome');
 });*/
