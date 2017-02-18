@@ -31,11 +31,12 @@
     .pagination > li > a, .pagination > li > span {
         border-radius: 50% !important;
         margin: 0 5px;
-        border: 0;
     }
 
     .pagination {
         margin: 0;
+    }
+    .li{
         border: 0;
     }
 </style>
