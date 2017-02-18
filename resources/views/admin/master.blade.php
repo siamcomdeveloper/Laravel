@@ -124,7 +124,7 @@
         </div>
         <div id="style-well2" class="well">
             <div class="row">
-                <div class="col-xs-12 col-md-8">
+                <div class="col-xs-12 col-md-12">
                     <div class="column1 col-xs-4 col-md-4">
                         <img class="topic-img" src="http://lorempixel.com/320/240?random3">
                     </div>
