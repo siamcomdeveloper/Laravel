@@ -59,8 +59,7 @@
     </section>
     <footer>
         <div class="row">
-        <a class="btn btn-primary" href="{{url('admin/blog/create')}}">Create</a>
-        <table class="table table-striped">
+            <table class="table table-striped">
             <tr>
                 <td>
                     Pic1
