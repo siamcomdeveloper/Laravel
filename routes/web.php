@@ -16,11 +16,16 @@
 //put path = data to update to database
 //delete = data to delete to database
 
+//controll@function
+Route::get('/', 'BlogController@index');
+Route::get('/', 'BlogController@about');
+
 /*Route::get('/', function () {
     return view('welcome');
 });*/
 
 //extend layout
+/*
 Route::get('/', function () {
     return view('site.index');
 });
@@ -36,12 +41,14 @@ Route::get('/about', function () {
     $data['people'] = ['si','am','kub'];
     return view('about',$data);
 });
-
+*/
 
 //path : '.' equal '/'
-Route::get('/layout', function () {
+/*
+ * Route::get('/layout', function () {
     return view('site.layout');
 });
+ */
 //Route::get('/about', function () {
     //Transfer data type 1
     /*
@@ -60,13 +67,13 @@ Route::get('/layout', function () {
     //return view('about')->with('name','Siam')->with('last_name','Nganphairojsakun');
     //
     //Transfer data type 4
-    return view('about')->withName('Siam')->withLastName('Nganphairojsakun');
+    //return view('about')->withName('Siam')->withLastName('Nganphairojsakun');
 //});
 
 //Route parameter type 1 (require parameter)
-Route::get('/plus/{num1?}/{num2?}', function ($num1=0,$num2=0) {
+/*Route::get('/plus/{num1?}/{num2?}', function ($num1=0,$num2=0) {
     //echo $num1 . '+' . $num2 . '=' . ($num1+$num2);
     echo $num1 . '&' . $num2;
-});
+});*/
 //})->where('num1','[0-9ก-ฮ]+')->where('num2','[a-zA-Z]+');
 //regular Expression
