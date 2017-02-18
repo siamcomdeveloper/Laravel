@@ -54,9 +54,14 @@
        margin: 20px !important;
     }
     
-    #well2{
+    #style-well-odd{
+        background-color: gray;
+    }
+    
+    #style-well-even{
         background-color: white;
     }
+    
 </style>
 </head>
 
@@ -69,7 +74,7 @@
         @yield('content')
     </section>
     <footer>
-        <div class="well">
+        <div id="style-well-odd" class="well">
             <div class="media">
                 <a class="pull-left" href="#">
                     <img class="media-object" src="http://placekitten.com/150/150">
@@ -97,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <div id="well2" class="well">
+        <div id="style-well-even" class="well">
             <div class="media">
                 <a class="pull-left" href="#">
                     <img class="media-object" src="http://placekitten.com/150/150">
