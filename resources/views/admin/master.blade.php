@@ -66,6 +66,12 @@
     .topic-img{
        height : 140px;
        width  : 200px;
+       
+    }
+    
+    .pull-left{
+       height: 200px;
+       width: 200px;
     }
     
 </style>
