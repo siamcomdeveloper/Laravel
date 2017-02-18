@@ -11,15 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
 //get = get data to display
 //post = from form
 //put path = data to update to database
 //delete = data to delete to database
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+//Transfer data
+
+Route::get('/about', function () {
+    $data['name'] = 'Siam Ngan';
+    return view('about',$data);
+});
+
