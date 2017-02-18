@@ -19,20 +19,21 @@
                     Action
                 </th>
             </tr>
-            @foreach($objs as $obj)
+            @foreach($objs as $row)
             <tr>
                 <td>
-                    {{ $obj->id }}
+                    {{ $row->id }}
                 </td>
                 <td>
-                    {{ $obj->topic }}
+                    {{ $row->topic }}
                 </td>
                 <td>
-                    {{ $obj->content }}
+                    {{ $row->content }}
                 </td>
                 <td>
-                    <form action="{{url('admin/blog')}}" method="post">
+                    <form action="{{url('admin/blog/'.$row->id)}}" method="post">
                         {{ method_field('DELETE') }}
+                        {{ csrf_field() }}
                     <button type="submit" class="btn btn-danger">Delete</button>
                     </form>
                 </td>
