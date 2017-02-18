@@ -27,6 +27,10 @@ Route::get('/about', function () {
     $data['people'] = ['si','am','kub'];
     return view('about',$data);
 });
+
+Route::get('/layout', function () {
+    return view('site.layout');
+});
 //Route::get('/about', function () {
     //Transfer data type 1
     /*
