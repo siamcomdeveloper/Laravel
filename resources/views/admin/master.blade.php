@@ -50,11 +50,11 @@
         padding: 25px;
     }
     
-    table table-striped{
+    .table table-striped{
         background: red !important;
     }
     
-    table table-striped td{
+    .table table-striped td{
         background: blue !important;
     }
 </style>
