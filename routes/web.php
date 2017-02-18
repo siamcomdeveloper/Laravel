@@ -45,5 +45,6 @@ Route::get('/about', function () {
 Route::get('/plus/{num1?}/{num2?}', function ($num1=0,$num2=0) {
     //echo $num1 . '+' . $num2 . '=' . ($num1+$num2);
     echo $num1 . '&' . $num2;
-})->where('num1','[0-9ก-ฮ]+')->where('num2','[a-zA-Z]+');
+});
+//})->where('num1','[0-9ก-ฮ]+')->where('num2','[a-zA-Z]+');
 //regular Expression
