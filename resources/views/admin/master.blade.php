@@ -55,7 +55,7 @@
     }
     
     #well2{
-        background-color: red !important;
+        background-color: white;
     }
 </style>
 </head>
