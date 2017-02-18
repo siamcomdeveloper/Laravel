@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return 'Siam';
+    return view('about');
 });
 
 //get = get data to display
