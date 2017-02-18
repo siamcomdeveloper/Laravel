@@ -5,6 +5,7 @@
     <div class='row'>
         <h3>Form Create Content</h3>
         <form action="{{url('admin/blog')}}" method="{{$method}}">
+            <input type="hidden" name="_token" value="<?php echo csrf_token();?>">
             <div class="form-group">
               <label for="topic">Topic</label>
               <input type="text" name="topic" class="form-control" placeholder="Topic">
