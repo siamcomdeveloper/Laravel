@@ -50,8 +50,8 @@
         padding: 25px;
     }
     
-    .table-striped>tbody>tr:nth-child(odd)>td, 
-    .table-striped>tbody>tr:nth-child(odd)>th {
+    .table-striped blog>tbody>tr:nth-child(odd)>td, 
+    .table-striped blog>tbody>tr:nth-child(odd)>th {
         background-color: red;
     }
 </style>
@@ -67,7 +67,7 @@
     </section>
     <footer>
     <div class="blog">
-        <table class="table table-striped">
+        <table class="table table-striped blog">
             <tr>
                 <td>
                     Pic1
