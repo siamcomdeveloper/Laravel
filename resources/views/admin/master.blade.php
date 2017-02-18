@@ -91,8 +91,9 @@
     
     .post-time{
         color: gray;
-        font: italic bold !important;
-        font-family: cursive, sans-serif !important;
+        font-style: italic;
+        font-weight: bold;
+        font-family: Lucida Console, Monospace;
     }
 </style>
 </head>
