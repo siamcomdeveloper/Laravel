@@ -32,7 +32,8 @@
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
-        font: bold cursive, sans-serif !important;
+        font-weight: bold !important;
+        font-family: cursive, sans-serif !important;
         color: black !important;
     }
     
