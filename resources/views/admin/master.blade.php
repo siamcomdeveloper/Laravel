@@ -88,7 +88,7 @@
        padding-bottom: 10px;
        font-size: 1em;
        font-weight: bold !important;
-       font-family: Avantgarde, sans-serif;
+       font-family: Arial Narrow, sans-serif;
     }
     
     .post-time{
@@ -97,7 +97,6 @@
         font-weight: bold;
         font-size: 1.1em;
         font-family: Arial, sans-serif;
-        //font-family: Lucida Console, Monospace;
     }
 </style>
 </head>
