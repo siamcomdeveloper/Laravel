@@ -32,14 +32,14 @@
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
+    }
+    
+    .pagination ul.active, .pagination ul a:hover {
         background: red !important;
     }
-
+    
     .pagination {
         margin: 0;
-    }
-    .a{
-        background: green !important;
     }
     
 </style>
