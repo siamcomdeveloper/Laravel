@@ -35,6 +35,6 @@ Route::get('/about', function () {
     return view('about',compact('name'));
     */
     //Transfer data type 3
-    return view('about')->with('name','Siam Ngan');
+    return view('about')->with('name','Siam')->with('last_name','Nganphairojsakun');
 });
 
