@@ -77,6 +77,10 @@
        padding-left: 10px;
     }
     
+    .media-heading{
+       padding-bottom: 10px;
+    }
+    
 </style>
 </head>
 
