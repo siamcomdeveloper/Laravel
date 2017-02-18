@@ -32,9 +32,6 @@
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
-    }
-    
-    .pagination ul li {
         font-family: bebas-neue !important;
         font: bold !important;
         color: black !important;
