@@ -3,7 +3,21 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <table class="table table-bordered">
+        <table class="table table-striped">
+            <tr>
+                <td>
+                    ID
+                </td>
+                <td>
+                    Topic
+                </td>
+                <td>
+                    Content
+                </td>
+                <td>
+                    Action
+                </td>
+            </tr>
             @foreach($objs as $obj)
             <tr>
                 <td>
@@ -14,6 +28,9 @@
                 </td>
                 <td>
                     {{ $obj->content }}
+                </td>
+                <td>
+                    
                 </td>
             </tr>
             @endforeach
