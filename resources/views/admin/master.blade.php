@@ -50,11 +50,11 @@
         padding: 25px;
     }
     
-    .table{
+    table{
         border-collapse: collapse;
     }
     
-    .table td{
+    td{
         padding-top: .5em;
         padding-bottom: .5em;
     }
@@ -71,7 +71,7 @@
     </section>
     <footer>
     <div class="blog">
-        <table class="table">
+        <table>
             <tr>
                 <td>
                     Pic1
