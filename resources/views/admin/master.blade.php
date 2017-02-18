@@ -50,11 +50,6 @@
         padding: 25px;
     }
     
-    .table-striped>tbody>tr:nth-child(odd)>td, 
-    .table-striped>tbody>tr:nth-child(odd)>th {
-        background-color: red;
-    }
-    
     .table-striped .blog{
        background-color: red;
     }
