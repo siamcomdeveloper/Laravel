@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return 'Siam';
 });
+
+//get = get data to display
+//post = from form
+//put path = data to update to database
+//delete = data to delete to database
