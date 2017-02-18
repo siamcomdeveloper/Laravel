@@ -13,7 +13,7 @@
             </div>
             <div class="form-group">
               <label for="content">Content</label>
-              <textarea name="content" class="form-control" rows="8" cols="40" value="{{$obj->content or ''}}"></textarea>
+              <textarea name="content" class="form-control" rows="8" cols="40" value="{{$obj->user_id or ''}}"></textarea>
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
