@@ -79,14 +79,14 @@
     
     .media-heading{
        padding-bottom: 10px;
-       font-size: 1.3em;
+       font-size: 2em;
        font-weight: bold !important;
        font-family: Arial Narrow, sans-serif;
     }
     
     .post-body{
        padding-bottom: 10px;
-       font-size: 1em;
+       font-size: 1.5em;
        font-weight: bold !important;
        font-family: Arial Narrow, sans-serif;
     }
@@ -95,7 +95,7 @@
         color: gray;
         font-style: italic;
         font-weight: bold;
-        font-size: 1.1em;
+        font-size: 1.2em;
         font-family: Arial, sans-serif;
     }
 </style>
@@ -120,6 +120,9 @@
                     <p class="post-body">I'm really glad to see this forums popular!</p>
                     <ul class="list-inline list-unstyled">
                         <li><span><i class="post-time" class="glyphicon glyphicon-time"></i>  {{time_elapsed_string('2016-11-15 17:01:15')}} </span></li>
+                    </ul>
+                    <ul class="list-inline list-unstyled">
+                        <li class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }} </span></li>
                     </ul>
                 </div>
             </div>
