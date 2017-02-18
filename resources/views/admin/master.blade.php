@@ -35,8 +35,7 @@
     }
     
     .pagination>li.active>a {
-        background: purple;
-        color: #fff;
+        background: red;
      }
      
     .pagination {
