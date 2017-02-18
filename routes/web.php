@@ -28,7 +28,7 @@ Route::get('/about', function () {
     return view('about',$data);
 });
 
-Route::get('/layout', function () {
+Route::get('/test-layout', function () {
     return view('site.layout');
 });
 //Route::get('/about', function () {
