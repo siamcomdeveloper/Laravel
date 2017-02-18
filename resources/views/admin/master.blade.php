@@ -37,6 +37,9 @@
     .pagination {
         margin: 0;
     }
+    .li{
+        background: red;
+    }
     
 </style>
 </head>
@@ -52,17 +55,13 @@
     <footer>
         <nav aria-label="Page navigation" class="text-center">
             <ul class="pagination">
-               <li><a href="#">previous</a></li>
+               <li><a href="#">Previous</a></li>
                <li class="active"><a href="#">1</a></li>
                <li><a href="#">2</a></li>
                <li><a href="#">3</a></li>
                <li><a href="#">4</a></li>
                <li><a href="#">5</a></li>
-               <li>
-                    <a href="#" aria-label="Next">
-                        <span aria-hidden="false">»</span>
-                    </a>
-               </li>
+               <li><a href="#">Next</a></li>
             </ul>
         </nav>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
