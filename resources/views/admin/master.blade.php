@@ -50,7 +50,7 @@
         padding: 25px;
     }
     
-    .well{
+    #well{
        padding: 50px !important;
     }
     
@@ -66,7 +66,7 @@
         @yield('content')
     </section>
     <footer>
-    <div class="well">
+    <div id="well">
             <div class="media">
                 <a class="pull-left" href="#">
                     <img class="media-object" src="http://placekitten.com/150/150">
