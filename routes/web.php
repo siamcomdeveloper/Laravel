@@ -18,7 +18,7 @@
 
 //controll@function
 Route::get('/', 'BlogController@index');
-Route::get('/', 'BlogController@about');
+Route::get('/extend', 'BlogController@extend');
 
 /*Route::get('/', function () {
     return view('welcome');

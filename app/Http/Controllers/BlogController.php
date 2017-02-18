@@ -10,8 +10,8 @@ class BlogController extends Controller
     {
         return view('site.index');
     }
-    function about()
+    function extend()
     {
-        return view('about');
+        return view('extend');
     }
 }
