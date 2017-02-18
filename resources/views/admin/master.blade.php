@@ -92,7 +92,7 @@
     }
     
     .post-time{
-        color: gray;
+        color: darkgray;
         font-style: italic;
         font-weight: bold;
         font-size: 1.2em;
