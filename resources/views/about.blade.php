@@ -1,3 +1,6 @@
+@extends('site.layout')
+
+@section('content')
 Hello : {{ $name. ' '. $last_name }}
 Hello : {{ '<p>' .  $name. ' '. $last_name . '</p>' }}
 Hello : {!! '<p>' .  $name. ' '. $last_name . '</p>' !!}
@@ -27,3 +30,4 @@ for
 @for($i = 0; $i < sizeof($people); $i++)
     {{ $people[$i] }}<br/>
 @endfor
+@stop
