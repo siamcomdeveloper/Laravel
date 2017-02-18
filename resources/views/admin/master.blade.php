@@ -30,8 +30,8 @@
     }
     .pagination > li > a, .pagination > li > span {
         border-radius: 50% !important;
-        border: solid 0px black;
         margin: 0 5px;
+        border: 0;
     }
 
     .pagination {
