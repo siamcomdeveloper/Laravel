@@ -5,7 +5,7 @@
     <div class='row'>
         <h3>Form Create Content</h3>
         <form action="{{$url}}" method="POST">
-            {{ method_field({{$method}}) }}
+            {{ method_field($method) }}
             <input type="hidden" name="_token" value="<?php echo csrf_token();?>">
             <div class="form-group">
               <label for="topic">Topic</label>
