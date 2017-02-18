@@ -15,13 +15,15 @@ class BlogController extends Controller
      */
     public function index()
     {
-        //show all
         //echo 'Admin/BlogController';
+        //insert database
+        
         $obj = new Blog();
-        $obj->topic = 'test123';
-        $obj->content = 'Hello';
+        $obj->topic = 'siam1234';
+        $obj->content = 'Hi';
         $obj->user_id = 1;
         $obj->save();
+        
     }
 
     /**
