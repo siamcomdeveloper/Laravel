@@ -78,6 +78,7 @@
     </header>
     <section id="main">
         @yield('content')
+        {{ myfunc() }}
     </section>
     <footer>
         <div id="style-well-odd" class="well">
