@@ -45,10 +45,13 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         //insert to database
+        echo $request['topic'];
+        echo $request['content'];
+        
         $obj = new Blog();
         $obj->topic = $request['topic'];
         $obj->content = $request['content'];
-        $obj->user_id = $request['user_id'];
+        //$obj->user_id = $request['user_id'];
         $obj->save();
     }
 

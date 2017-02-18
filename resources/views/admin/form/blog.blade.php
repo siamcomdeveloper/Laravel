@@ -7,11 +7,11 @@
         <form action="{{url('admin/blog')}}" method="{{$method}}">
             <div class="form-group">
               <label for="topic">Topic</label>
-              <input type="text" class="form-control" placeholder="Topic">
+              <input type="text" name="topic" class="form-control" placeholder="Topic">
             </div>
             <div class="form-group">
               <label for="content">Content</label>
-              <textarea class="form-control" rows="8" cols="40"></textarea>
+              <textarea name="content" class="form-control" rows="8" cols="40"></textarea>
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
