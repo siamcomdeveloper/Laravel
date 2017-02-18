@@ -32,14 +32,13 @@
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
-        background: red;
+        background: red !important;
     }
 
     .pagination {
         margin: 0;
-        background: blue !important;
     }
-    .li{
+    .a{
         background: green !important;
     }
     
