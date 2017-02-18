@@ -74,7 +74,7 @@
     }
     
     .media-body{
-       padding-left: 50px;
+       padding-left: 10px;
     }
     
 </style>
