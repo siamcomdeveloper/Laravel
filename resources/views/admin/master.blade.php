@@ -31,21 +31,13 @@
     .pagination > li > a, .pagination > li > span {
         border-radius: 50% !important;
         margin: 0 5px;
-        border: solid 0px black !important;
+        border: 0 !important;
     }
 
     .pagination {
         margin: 0;
     }
-    .li{
-        border: solid 0px black !important;
-    }
-    .lu{
-        border: solid 0px black !important;
-    }
-    .a{
-        border: solid 0px black !important;
-    }
+    
 </style>
 </head>
 
