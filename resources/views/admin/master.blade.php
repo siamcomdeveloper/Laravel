@@ -36,6 +36,7 @@
 
     .pagination {
         margin: 0;
+        border: 0;
     }
 </style>
 </head>
