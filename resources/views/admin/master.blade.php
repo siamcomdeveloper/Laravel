@@ -86,7 +86,7 @@
                     <img class="topic-img" src="http://lorempixel.com/320/240?random2">
   		</a>
   		<div class="media-body">
-                    <h4 class="post-title">Let's see this awesome post!</h4>
+                    <h4 class="media-heading">Let's see this awesome post!</h4>
                     <p class="post-body">I'm really glad to see this forums popular!</p>
                     <ul class="list-inline list-unstyled">
                         <li><span><i class="glyphicon glyphicon-calendar"></i> 2 days, 8 hours </span></li>
