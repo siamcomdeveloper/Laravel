@@ -79,24 +79,24 @@
     
     .media-heading{
        padding-bottom: 10px;
-       font-size: 1.2em;
+       font-size: 1.3em;
        font-weight: bold !important;
-       font-family: Verdana, sans-serif;
+       font-family: Arial Narrow, sans-serif;
     }
     
     .post-body{
        padding-bottom: 10px;
        font-size: 1em;
        font-weight: bold !important;
-       font-family: Verdana, sans-serif;
+       font-family: Avantgarde, sans-serif;
     }
     
     .post-time{
         color: gray;
         font-style: italic;
         font-weight: bold;
-        font-size: 1.2em;
-        font-family: Verdana, sans-serif;
+        font-size: 1.1em;
+        font-family: Arial, sans-serif;
         //font-family: Lucida Console, Monospace;
     }
 </style>
