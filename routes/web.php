@@ -16,6 +16,13 @@
 //put path = data to update to database
 //delete = data to delete to database
 
+Route::get('/', function (){ 
+    function myfunc(){
+        return 'Siam';
+    }
+    return myfunc();
+});
+
 //Use sometime
 //controll@function
 Route::get('/', 'BlogController@index');
