@@ -20,4 +20,4 @@ Hello : {!! '<p>' .  $name. ' '. $last_name . '</p>' !!}
 <hr/>
 @foreach($people as $person)
     {{ $person }}<br/>
-@endfor
+@endforeach
