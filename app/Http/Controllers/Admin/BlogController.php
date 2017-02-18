@@ -19,6 +19,9 @@ class BlogController extends Controller
         //Selete all
         $objs = Blog::all();
         dd($objs);
+        $data['objs'] = $objs;
+        //set data to view
+        return view('/admin.list.blog',$data);
     }
 
     /**
