@@ -84,7 +84,7 @@ class BlogController extends Controller
         $obj = Blog::find($id);
         $data['method'] = "put";
         $data['obj'] = $obj;
-        $data['url'] = url('admin/blog'.$id.'/edit');
+        $data['url'] = url('admin/blog/'.$id);
         return view('admin.form.blog',$data);
     }
 
