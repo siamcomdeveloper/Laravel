@@ -46,6 +46,10 @@
         margin: 0;
     }
     
+    .well{
+        padding: 25px !important;
+    }
+    
 </style>
 </head>
 
