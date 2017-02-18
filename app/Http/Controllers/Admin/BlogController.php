@@ -16,32 +16,9 @@ class BlogController extends Controller
     public function index()
     {
         //echo 'Admin/BlogController';
-        //insert database
-        /*
-        $obj = new Blog();
-        $obj->topic = 'siam1234';
-        $obj->content = 'Hi';
-        $obj->user_id = 1;
-        $obj->save();
-        */
         //Selete all
-        /*
         $objs = Blog::all();
         dd($objs);
-        */
-        //Search by id
-        /*
-        $objs = Blog::find(2);
-        dd($objs);
-        */
-        //Search by id & Update
-        /*
-        $obj = Blog::find(2);
-        $obj->topic = 'Hello world';
-        $obj->save();
-        */
-        $obj = Blog::find(2);
-        $obj->delete();
     }
 
     /**
@@ -63,6 +40,11 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         //insert to database
+        $obj = new Blog();
+        $obj->topic = $request['topic'];
+        $obj->content = $request['content'];
+        $obj->user_id = $request['user_id'];
+        $obj->save();
     }
 
     /**
@@ -73,7 +55,10 @@ class BlogController extends Controller
      */
     public function show($id)
     {
-        //search
+        //Search by id
+        $obj = Blog::find($id);
+        var_dump($obj);
+        //dd($objs);
     }
 
     /**
@@ -85,6 +70,8 @@ class BlogController extends Controller
     public function edit($id)
     {
         //update
+        $obj = Blog::find($id);
+        //load view to edit
     }
 
     /**
@@ -96,7 +83,10 @@ class BlogController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //insert & update
+        //Search by id & Update
+        $obj = Blog::find($id);
+        $obj->topic = $request['topic'];
+        $obj->save();
     }
 
     /**
@@ -107,6 +97,8 @@ class BlogController extends Controller
      */
     public function destroy($id)
     {
-        //delete
+        //Delete by id
+        $obj = Blog::find($id);
+        $obj->delete();
     }
 }
