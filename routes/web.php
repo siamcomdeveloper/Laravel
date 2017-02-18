@@ -27,7 +27,7 @@ Route::get('/about', function () {
     $data['people'] = ['si','am','kub'];
     return view('about',$data);
 });
-
+//path : '.' equal '/'
 Route::get('/layout', function () {
     return view('site.layout');
 });

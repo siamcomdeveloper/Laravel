@@ -4,7 +4,18 @@
 <meta charset="UTF-8">
 <title>Laravel</title>
 <style>
-    
+    header{
+        padding : 25px;
+        background: red;
+        color: #FFF;
+        text-align: center;
+    }
+    footer{
+        padding: 25px;
+        background: blue;
+        color: #FFF;
+        text-align: center;
+    }
 </style>
 </head>
 
