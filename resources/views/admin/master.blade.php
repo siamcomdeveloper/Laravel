@@ -25,6 +25,9 @@
     .fl{
         float: left;
     }
+    #edit{
+        margin-right: 10px;
+    }
 </style>
 </head>
 

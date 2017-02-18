@@ -31,7 +31,7 @@
                     {{ $row->content }}
                 </td>
                 <td>
-                    <a class="fl btn btn-primary" href="{{url('admin/blog/'.$row->id.'/edit')}}">Edit</a>
+                    <a id="edit" class="fl btn btn-primary" href="{{url('admin/blog/'.$row->id.'/edit')}}">Edit</a>
                     <form action="{{url('admin/blog/'.$row->id)}}" method="post" onsubmit="return(confirm('Do you want to delete this ?'))">
                         {{ method_field('DELETE') }}
                         {{ csrf_field() }}
