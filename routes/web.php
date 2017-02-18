@@ -23,7 +23,8 @@ Route::get('/', function () {
 //Transfer data
 
 Route::get('/about', function () {
-    $data['name'] = 'Siam Ngan';
+    $data['name'] = 'Siam';
+    $data['last_name'] = 'Nganphairojsakun';
     return view('about',$data);
 });
 
