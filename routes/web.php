@@ -16,13 +16,13 @@
 //put path = data to update to database
 //delete = data to delete to database
 
+//Use sometime
 //controll@function
 Route::get('/', 'BlogController@index');
 Route::get('/extend', 'BlogController@extend');
 
-Route::resource('/admin/blog','Admin\BlogController', ['only' => [
-    'index', 'show'
-]]);
+//Use a lot
+Route::resource('/admin/blog','Admin\BlogController');
 /*Route::get('/', function () {
     return view('welcome');
 });*/

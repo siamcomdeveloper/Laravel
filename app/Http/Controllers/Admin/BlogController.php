@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use App\Blog;
+//extend App\Blog
 class BlogController extends Controller
 {
     /**
@@ -14,8 +15,13 @@ class BlogController extends Controller
      */
     public function index()
     {
-        //show all items
-        echo 'Admin/BlogController';
+        //show all
+        //echo 'Admin/BlogController';
+        $obj = new Blog();
+        $obj->topic = 'test123';
+        $obj->content = 'Hello';
+        $obj->user_id = 1;
+        $obj->save();
     }
 
     /**
