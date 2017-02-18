@@ -73,6 +73,10 @@
        height: 200px;
     }
     
+    .media-body{
+       padding-left: 50px;
+    }
+    
 </style>
 </head>
 
