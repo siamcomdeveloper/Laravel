@@ -17,13 +17,15 @@ class BlogController extends Controller
     {
         //echo 'Admin/BlogController';
         //insert database
-        
+        /*
         $obj = new Blog();
         $obj->topic = 'siam1234';
         $obj->content = 'Hi';
         $obj->user_id = 1;
         $obj->save();
-        
+        */
+        $objs = Blog::all();
+        var_dump($objs);
     }
 
     /**
