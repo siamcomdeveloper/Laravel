@@ -25,7 +25,7 @@ class BlogController extends Controller
         $obj->save();
         */
         $objs = Blog::all();
-        var_dump($objs);
+        dd($objs);
     }
 
     /**
