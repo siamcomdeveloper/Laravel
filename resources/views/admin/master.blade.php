@@ -35,15 +35,15 @@
     }
     
     .pagination ul.active, .pagination ul a:hover {
-        background: red !important;
+        background: red;
     }
     
     .pagination il.active, .pagination il a:hover {
-        background: blue !important;
+        background: blue;
     }
     
     .active{
-        background: red !important;
+        background: red;
     }
     .pagination {
         margin: 0;
