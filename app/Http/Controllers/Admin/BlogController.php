@@ -24,7 +24,15 @@ class BlogController extends Controller
         $obj->user_id = 1;
         $obj->save();
         */
+        //Selete all
+        /*
         $objs = Blog::all();
+        dd($objs);
+        */
+        //Search
+        $objs = Blog::find(1);
+        dd($objs);
+        $objs = Blog::find(2);
         dd($objs);
     }
 
