@@ -33,7 +33,7 @@ class BlogController extends Controller
     {
         //load form show
         $data['method'] = "post";
-        $data['url'] = url('admin/blog');
+        $data['url'] = url('admin/blog/');
         return view('admin.form.blog',$data);
     }
 
@@ -82,8 +82,8 @@ class BlogController extends Controller
     {
         //update
         $obj = Blog::find($id);
-        $data['method'] = "put";
         $data['obj'] = $obj;
+        $data['method'] = "put";
         $data['url'] = url('admin/blog/'.$id);
         return view('admin.form.blog',$data);
     }
@@ -100,7 +100,9 @@ class BlogController extends Controller
         //Search by id & Update
         $obj = Blog::find($id);
         $obj->topic = $request['topic'];
+        $obj->topic = $request['content'];
         $obj->save();
+        return redirect(url('admin/blog'));
     }
 
     /**
