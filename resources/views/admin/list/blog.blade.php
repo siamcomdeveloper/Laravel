@@ -5,18 +5,18 @@
     <div class="row">
         <table class="table table-striped">
             <tr>
-                <td>
+                <th>
                     ID
-                </td>
-                <td>
+                </th>
+                <th>
                     Topic
-                </td>
-                <td>
+                </th>
+                <th>
                     Content
-                </td>
-                <td>
+                </th>
+                <th>
                     Action
-                </td>
+                </th>
             </tr>
             @foreach($objs as $obj)
             <tr>
