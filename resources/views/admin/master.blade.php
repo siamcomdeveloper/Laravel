@@ -89,6 +89,11 @@
        font-family: cursive, sans-serif !important;
     }
     
+    .post-time{
+        color: gray;
+        font: italic bold !important;
+        font-family: cursive, sans-serif !important;
+    }
 </style>
 </head>
 
@@ -110,7 +115,7 @@
                     <h4 class="media-heading">Let's see this awesome post!</h4>
                     <p class="post-body">I'm really glad to see this forums popular!</p>
                     <ul class="list-inline list-unstyled">
-                        <li><span><i style="color: gray;" class="glyphicon glyphicon-time"></i>  {{time_elapsed_string('2016-11-15 17:01:15')}} </span></li>
+                        <li><span><i class="post-time" class="glyphicon glyphicon-time"></i>  {{time_elapsed_string('2016-11-15 17:01:15')}} </span></li>
                     </ul>
                 </div>
             </div>
@@ -124,7 +129,7 @@
                     <h4 class="media-heading">When will the concert be held?</h4>
                     <p class="post-body">After day, don't sixth were divide creepeth living him it heaven moveth of male man rule, made gathered cattle after. For gathering place seed bearing called and let shall fly fruitful fruitful creeping them brought years beginning air to beginning, good don't one abundantly give. That were blessed made moving light saw place they're. Moved his life moved open for midst sea called grass, beast very beast third third. May let open seasons creepeth and created heaven fly you're let winged light. Fruit after. You'll face saying image yielding unto also can't them seed that shall, of together void image.</p>
                     <ul class="list-inline list-unstyled">
-                        <li><span><i style="color: gray;" class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }} </span></li>
+                        <li class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }} </span></li>
                     </ul>
                 </div>
             </div>
