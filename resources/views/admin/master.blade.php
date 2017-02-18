@@ -39,6 +39,12 @@
     .li{
         border: 0;
     }
+    .lu{
+        border: 0;
+    }
+    .a{
+        border: 0;
+    }
 </style>
 </head>
 
