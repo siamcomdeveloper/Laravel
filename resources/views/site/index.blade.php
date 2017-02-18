@@ -1,1 +1,4 @@
-@extends('site.layout');
+@extends('site.layout')
+@section('content')
+    index
+@stop

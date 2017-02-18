@@ -25,6 +25,10 @@ Route::get('/', function () {
     return view('site.index');
 });
 
+Route::get('/extend', function () {
+    return view('extend');
+});
+//////////
 Route::get('/about', function () {
     //Transfer data type 1
     $data['name'] = 'Siam';
@@ -32,6 +36,8 @@ Route::get('/about', function () {
     $data['people'] = ['si','am','kub'];
     return view('about',$data);
 });
+
+
 //path : '.' equal '/'
 Route::get('/layout', function () {
     return view('site.layout');
