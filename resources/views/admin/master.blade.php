@@ -78,7 +78,7 @@
         <div id="style-well-odd" class="well">
             <div class="media">
                 <a class="pull-left" href="#">
-                    <img class="media-object" src="http://placekitten.com/150/150">
+                    <img class="media-object" src="http://placekitten.com/150/150" height="50" width="100">
   		</a>
   		<div class="media-body">
                     <h4 class="media-heading">Receta 1</h4>
