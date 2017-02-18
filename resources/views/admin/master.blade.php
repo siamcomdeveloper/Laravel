@@ -47,7 +47,8 @@
     }
     
     .well{
-        padding: 25px !important;
+        padding-left: 50px !important;
+        padding-right: 100px !important;
     }
     
 </style>
