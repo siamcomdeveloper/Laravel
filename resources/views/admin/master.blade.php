@@ -50,11 +50,11 @@
         padding: 25px;
     }
     
-    .table table-blog{
+    .table{
         border-collapse: collapse;
     }
     
-    .table table-blog td{
+    .table td{
         padding-top: .5em;
         padding-bottom: .5em;
     }
@@ -71,7 +71,7 @@
     </section>
     <footer>
     <div class="blog">
-        <table class="table-striped">
+        <table class="table">
             <tr>
                 <td>
                     Pic1
