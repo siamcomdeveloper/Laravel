@@ -17,9 +17,6 @@
 //delete = data to delete to database
 
 Route::get('/', function (){ 
-    function myfunc(){
-        return 'Siam';
-    }
     return myfunc();
 });
 
