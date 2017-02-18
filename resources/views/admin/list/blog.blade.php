@@ -1,1 +1,5 @@
-test
+@extends('admin.master')
+
+@section('content')
+
+@stop
