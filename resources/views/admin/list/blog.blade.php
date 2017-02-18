@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <table class="table">
+        <table class="table table-bordered">
             @foreach($objs as $obj)
             <tr>
                 <td>
