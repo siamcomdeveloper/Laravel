@@ -32,7 +32,7 @@ class BlogController extends Controller
     public function create()
     {
         //load form show
-        $data['method'] = "psot";
+        $data['method'] = "post";
         return view('admin.form.blog',$data);
     }
 
