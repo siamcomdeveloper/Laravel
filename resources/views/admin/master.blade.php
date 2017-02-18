@@ -64,7 +64,7 @@
     }
     
     .topic-img{
-       height : 160px;
+       height : 140px;
        width  : 200px;
     }
     
