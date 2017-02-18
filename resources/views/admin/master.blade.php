@@ -79,7 +79,7 @@
     
     .media-heading{
        padding-bottom: 10px;
-       font-size: 1.5em;
+       font-size: 1.2em;
        font-weight: bold !important;
        font-family: Verdana, sans-serif;
     }
@@ -95,7 +95,7 @@
         color: gray;
         font-style: italic;
         font-weight: bold;
-        font-size: 1em;
+        font-size: 1.2em;
         font-family: Verdana, sans-serif;
         //font-family: Lucida Console, Monospace;
     }
