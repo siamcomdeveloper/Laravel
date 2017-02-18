@@ -31,7 +31,7 @@
                     {{ $row->content }}
                 </td>
                 <td>
-                    <form action="{{url('admin/blog/'.$row->id)}}" method="post">
+                    <form action="{{url('admin/blog/'.$row->id)}}" method="post" onsubmit="return(confirm('Do you want to delete this ?'))">
                         {{ method_field('DELETE') }}
                         {{ csrf_field() }}
                     <button type="submit" class="btn btn-danger">Delete</button>

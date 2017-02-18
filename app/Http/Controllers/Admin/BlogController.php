@@ -110,5 +110,7 @@ class BlogController extends Controller
         //Delete by id
         $obj = Blog::find($id);
         $obj->delete();
+        
+        return redirect(url('admin/blog'));
     }
 }
