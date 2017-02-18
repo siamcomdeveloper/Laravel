@@ -51,7 +51,7 @@
     }
     
     .well{
-       background-color: red;
+       background-color: red !important;
     }
 </style>
 </head>
