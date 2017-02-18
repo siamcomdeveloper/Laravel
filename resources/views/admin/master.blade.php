@@ -81,6 +81,10 @@
        padding-bottom: 10px;
     }
     
+    .post-body{
+       padding-bottom: 10px;
+    }
+    
 </style>
 </head>
 
