@@ -34,10 +34,14 @@ class BlogController extends Controller
         $objs = Blog::find(2);
         dd($objs);
         */
-        //Search & Update
+        //Search by id & Update
+        /*
         $obj = Blog::find(2);
         $obj->topic = 'Hello world';
         $obj->save();
+        */
+        $obj = Blog::find(2);
+        $obj->delete();
     }
 
     /**
