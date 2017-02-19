@@ -53,7 +53,7 @@ Route::get('/forums/{page?}', function ($page=1) {
     $data['last_name'] = 'Nganphairojsakun';
     //dd($page);
     //set data to view
-    return view('site.forums.forum',$authors,$posts,$data);
+    return view('site.forums.forum',$data,$authors,$posts);
         
     /*$objs = loadJSON('authors');
     $data['authors'] = $objs;
