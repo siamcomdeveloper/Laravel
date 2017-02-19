@@ -14,7 +14,7 @@ index anserTable = Step % 8;
 */
 
 for($i = 0; $i < strlen($input); $i++){
-    echo $input[$i] . "\r\n";
+    echo $input[$i];
 }
 
 echo "\r\n";
