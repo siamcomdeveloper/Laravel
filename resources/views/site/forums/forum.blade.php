@@ -26,7 +26,7 @@
         <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
-        @foreach($authors as $row){
+        @foreach($objs as $row){
            {{ $row->id }}
         }
         <div id="style-well1" class="well">

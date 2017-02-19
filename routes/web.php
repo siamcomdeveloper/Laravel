@@ -38,14 +38,15 @@ Route::get('/extend', 'BlogController@extend');
 Route::resource('/admin/blog','Admin\BlogController');
 
 Route::get('/forums', function () {
-    //$objs = Blog::all();
-    $objs = loadJSON('authors');
-    //$data['objs'] = $objs;
+    $objs = Blog::all();
+        //dd($objs);
+    $data['objs'] = $objs;
+        //set data to view
+    return view('admin.list.blog',$data);
+        
+    /*$objs = loadJSON('authors');
     $data['authors'] = $objs;
-    //dd($objs);
-    //set data to view
-    //return view('admin.list.blog',$data);
-    return view('site.forums.forum',$data);
+    return view('site.forums.forum',$data);*/
 });
 
 /*Route::get('/', function () {
