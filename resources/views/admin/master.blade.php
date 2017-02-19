@@ -34,7 +34,7 @@
         border: 0 !important;
         font-weight: bold !important;
         font-family: Arial Narrow, sans-serif;
-        font-size: 1.6em;
+        font-size: 1.2em;
         color: black !important;
     }
     
@@ -123,7 +123,7 @@
     .name{
        margin-top: 20px;
        text-align: center;
-       color: #ac2925;
+       color: red;
     }
     
     .role{
