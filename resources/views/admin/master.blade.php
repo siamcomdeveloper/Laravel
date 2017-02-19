@@ -121,6 +121,7 @@
     
     .name{
        text-align: center;
+       color: red;
     }
     
     .role{
@@ -169,7 +170,7 @@
                         <div class="row">
                             <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne">
                             <h4 class="name">Zlatan Ibrahimović</h4>
-                            <p class="role">Moderator</p>
+                            <h4 class="role">Moderator</h4>
                             <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
                         </div>
                         
