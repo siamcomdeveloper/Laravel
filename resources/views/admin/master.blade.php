@@ -33,7 +33,7 @@
         margin: 0 5px;
         border: 0 !important;
         font-weight: bold !important;
-        font-family: Arial Narrow, sans-serif;
+        font-family: cursive, sans-serif !important
         color: black !important;
     }
     
