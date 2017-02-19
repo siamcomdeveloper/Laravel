@@ -147,10 +147,10 @@
                     </div>
                     <div class="column3 col-lg-2">
                         <div class="row">
-                            <img class="topic-img" src="http://lorempixel.com/160/120?random3">
-                            <h4 class="media-heading">concert</h4>
-                            <p class="post-body">After daying.</p>
-                            <p class="post-time">{{ time_elapsed_string('2016-11-10 06:33:29') }}</p>
+                            <img class="avatar-img" src="https://api.adorable.io/avatars/250/jason-bourne">
+                            <h4 class="name">Zlatan Ibrahimović</h4>
+                            <p class="role">Moderator</p>
+                            <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
                         </div>
                         
                     </div>
