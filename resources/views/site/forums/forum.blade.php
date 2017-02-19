@@ -47,7 +47,7 @@
             </div>
         </div>
         <div id="style-well2" class="well">
-            <div class="row" sytle="height: 100%; display: table-row;">
+            <div class="row">
                     <div class="column1 col-lg-2">
                         <img class="topic-img" src="http://lorempixel.com/320/240?random3">
                     </div>
@@ -57,7 +57,7 @@
                         <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }}</span></p>
                     </div>
                     <div class="column3 col-lg-2">
-                        <div class="row">
+                        <div class="row" sytle="height: 100%; display: table-row;">
                             <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
                             <h4 class="name">Zlatan Ibrahimović</h4>
                             <h4 class="role">Moderator</h4>
