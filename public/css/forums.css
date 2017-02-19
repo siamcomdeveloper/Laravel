@@ -1,4 +1,4 @@
-    .pagination > li > a, .pagination > li > span {
+.pagination > li > a, .pagination > li > span {
         border-radius: 50% !important;
         margin: 0 5px;
         border: 0 !important;
@@ -22,8 +22,8 @@
     }
     
     .well{
-       margin: 20px;
-       box-shadow: 3px 3px 10px darkgray;
+       margin: 20px !important;
+       box-shadow: 3px 3px 10px darkgray !important;
     }
     
     #style-well1{
@@ -37,6 +37,7 @@
     .topic-img{
        height : 140px;
        width  : 200px;
+       
     }
     
     .pull-left{
@@ -50,14 +51,14 @@
     .media-heading{
        padding-bottom: 10px;
        font-size: 1.6em;
-       font-weight: bold;
+       font-weight: bold !important;
        font-family: Arial Narrow, sans-serif;
     }
     
     .post-body{
        padding-bottom: 10px;
        font-size: 1.3em;
-       font-weight: bold;
+       font-weight: bold !important;
        font-family: Arial Narrow, sans-serif;
     }
     
@@ -69,8 +70,16 @@
         font-family: Arial Narrow, sans-serif;
     }
     
+    .column1{
+        
+    }
+    
     .column2{
         border-right: solid 1px rgba(0, 0, 0, .1);
+    }
+    
+    .column3{
+        
     }
     
     .avatar-img{
@@ -96,22 +105,4 @@
        margin-top: 15px;
        text-align: center;
        font-weight: bold;
-    }
-    
-    .forumsHead{
-        font-weight: bold;
-        font-size: 2.5em;
-        font-family: Arial Narrow, sans-serif;
-    }
-    
-    .forumsSubtitle{
-        font-weight: bold;
-        font-size: 2em;
-        font-family: Arial Narrow, sans-serif;
-    }
-    
-    .forumsPosts{
-        font-weight: bold;
-        font-size: 1.5em;
-        font-family: Arial Narrow, sans-serif;
     }
