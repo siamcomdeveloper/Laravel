@@ -105,6 +105,8 @@
     
     .column2{
         background-color: green;
+        border-left: solid 1px gray;
+        border-right: solid 1px gray;
     }
     
     .column3{
