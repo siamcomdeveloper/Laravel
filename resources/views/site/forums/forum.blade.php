@@ -30,7 +30,7 @@
         @foreach($posts as $post)
             {{ $post['id'] }} <br>
             {{ $post['author_id'] }} <br>
-            <div id="style-well1" class="well">
+            <div id="style-well{{$post['id']%2}}}" class="well">
                 <div class="row">
                     <div class="column1 col-lg-2">
                             <img class="topic-img" src="{{ $post['image_url'] }}">
@@ -38,12 +38,12 @@
                     <div class="column2 col-lg-8">
                         <h4 class="media-heading">{{ $post['title'] }}</h4>
                         <p class="post-body">{{ $post['body'] }}</p>
-                        <p class="post-time"><span><i class="glyphicon glyphicon-time"></i>{{time_elapsed_string($post['created_at'])}}</span></li>
+                        <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{time_elapsed_string($post['created_at'])}}</span></li>
                     </div>
                     <div class="column3 col-lg-2">
                         <table class="table">
                             <tr><img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne"></tr>
-                            <tr><h4 class="name">Jason Bourne</h4></tr>
+                            <tr><h4 class="name">{{$authors[$post['author_id']]['name'] }}</h4></tr>
                             <tr><h4 class="role">Registered user</h4></tr>
                             <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>New York</span></p></tr>
                         </table>
