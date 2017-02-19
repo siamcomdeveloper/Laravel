@@ -22,7 +22,8 @@ Route::get('/', function (){
     
     //$author = $authors[0]; // first object in "data" array - Jack
     //return $author['id']; // Jack's name
-    echo $authors[0]['id'];
+    echo $authors[0]['name'] . '<br>';
+    echo $authors[3]['place'] . '<br>';
     /*foreach($authors as $author){
       echo $author['id'] . $author['name'] . $author['role'] . $author['place'] . $author['avatar_url'] . '<br>';
     }*/
