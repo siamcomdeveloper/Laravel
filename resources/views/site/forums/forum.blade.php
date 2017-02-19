@@ -56,9 +56,8 @@
                         <p class="post-body">After day, don't sixth were divide creepeth living him it heaven moveth of male man rule, made gathered cattle after. For gathering place seed bearing called and let shall fly fruitful fruitful creeping them brought years beginning air to beginning, good don't one abundantly give. That were blessed made moving light saw place they're. Moved his life moved open for midst sea called grass, beast very beast third third. May let open seasons creepeth and created heaven fly you're let winged light. Fruit after. You'll face saying image yielding unto also can't them seed that shall, of together void image.</p>
                         <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }}</span></p>
                     </div>
-                    <div class="column3 col-lg-2" sytle="height: 100%; display: table-row;">
-                        <div class="row" sytle="height: 100%; display: table-row;">
-                            <table style="border: solid 1px black">
+                    <div class="column3 col-lg-2">
+                            <table class="table" style="border: solid 1px black">
                                 <tr>
                             <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
                             </tr>
@@ -72,7 +71,6 @@
                             <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
                             </tr>
                             </table>
-                        </div>
                     </div>
             </div>
         </div>
