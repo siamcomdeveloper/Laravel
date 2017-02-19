@@ -26,7 +26,8 @@
         <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
-        {{ $objs['id'] }}
+        @foreach($objs as $row)
+            {{ $row['id'] . '<br>' }}
         <div id="style-well1" class="well">
             <div class="row">
                 <div class="column1 col-lg-2">
