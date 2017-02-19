@@ -32,5 +32,5 @@ if (preg_match('/[0-9]+$/', $line)) {
 */
 echo $answerTable[0]["x"] . "\r\n";
 echo $answerTable[0]["y"] . "\r\n";
-echo $answerTable[7]["direction"];
+echo $answerTable[7]["direction"] . "\r\n";
 ?>
