@@ -57,7 +57,7 @@
         <nav aria-label="Page navigation" class="text-center">
             <ul class="pagination">
                @if($page > 1)
-                    <li><a href="{{url('/forums/'.($page-1)}}">Previous</a></li>
+                    Pe
                @endif
                @for($i = 1 ; $i <= $allpage ; $i++)
                     @if($page == $i)
