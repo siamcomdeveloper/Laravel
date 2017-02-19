@@ -147,12 +147,10 @@
                     </div>
                     <div class="column3 col-lg-2">
                         <div class="row">
-                            <div class="row1 col-lg-2">
-                                <img class="topic-img" src="http://lorempixel.com/160/120?random3">
-                            </div>
-                        <h4 class="media-heading">concert</h4>
-                        <p class="post-body">After daying.</p>
-                        <p class="post-time">{{ time_elapsed_string('2016-11-10 06:33:29') }}</p>
+                            <img class="topic-img" src="http://lorempixel.com/160/120?random3">
+                            <h4 class="media-heading">concert</h4>
+                            <p class="post-body">After daying.</p>
+                            <p class="post-time">{{ time_elapsed_string('2016-11-10 06:33:29') }}</p>
                         </div>
                         
                     </div>
