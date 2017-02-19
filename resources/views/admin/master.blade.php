@@ -127,11 +127,11 @@
     
     .role{
        text-align: center;
-       margin-top: 20px;
+       margin-top: 15px;
     }
     
     .place{
-       margin-top: 20px;
+       margin-top: 15px;
        text-align: center;
     }
     
