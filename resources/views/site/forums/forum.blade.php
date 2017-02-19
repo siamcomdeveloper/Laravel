@@ -49,6 +49,7 @@
                 </div>
             </div>
         @endforeach
+        <!--
         <div id="style-well2" class="well">
             <div class="row">
                     <div class="column1 col-lg-2">
@@ -69,6 +70,7 @@
                     </div>
             </div>
         </div>
+        -->
     </section>
     <footer>
         <nav aria-label="Page navigation" class="text-center">
