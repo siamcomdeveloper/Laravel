@@ -18,7 +18,14 @@
 
 Route::get('/', function (){ 
     //return myfunc();
-    return loadJSON('authors');
+    $authors = loadJSON('authors');
+    
+    $author = $authors[0]; // first object in "data" array - Jack
+    return $author['id']; // Jack's name
+
+    /*foreach($authors as $author){
+        echo $author . '<br>;
+    }*/
 });
 
 //Use sometime
