@@ -72,7 +72,7 @@ $answerTable = array ( 0 => array ( "x" =>  0, "y" =>  1, "direction" => "North"
                        6 => array ( "x" => -1, "y" =>  0, "direction" => "West"),
                        7 => array ( "x" => -1, "y" =>  1, "direction" => "North West")
                 );
-echo 'X: ' . $answerTable[$index]["x"] . 'Y: ' . $answerTable[$index]["y"] . 'Direction: ' . $answerTable[$index]["direction"] . "\r\n";
+echo 'X: ' . $answerTable[$index]["x"] . ' Y: ' . $answerTable[$index]["y"] . ' Direction: ' . $answerTable[$index]["direction"] . "\r\n";
 //echo $answerTable[0]["x"] . "\r\n";
 //echo $answerTable[0]["y"] . "\r\n";
 //echo $answerTable[7]["direction"] . "\r\n";
