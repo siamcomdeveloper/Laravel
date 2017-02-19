@@ -8,7 +8,8 @@
         padding: 50px;
     }
     header{
-        padding: 25px;
+        padding-left: 20px;
+        padding-top: 10px;
     }
     footer{
         padding: 50px;
