@@ -39,7 +39,7 @@ Route::resource('/admin/blog','Admin\BlogController');
 
 Route::get('/forums', function () {
     $objs = loadJSON('authors');//Blog::all();
-    dd($objs);
+    //dd($objs);
     $data['objs'] = $objs;
         //set data to view
     return view('admin.list.blog',$data);

@@ -26,7 +26,7 @@
         <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
-        @foreach($objs as $row){
+        @foreach($objs[0] as $row){
            {{ $row->id }}
         }
         <div id="style-well1" class="well">
