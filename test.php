@@ -38,11 +38,11 @@ for($i = 0; $i < strlen($input); $i++){
                 $i++;
             }
             else{
+                echo $num . "\r\n";
+                $Step += $num;
                 break;
             }
         }
-        echo $num . "\r\n";
-        $Step += $num;
     }
     else {
         echo "input invalid" . "\r\n";
