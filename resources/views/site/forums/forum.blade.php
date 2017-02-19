@@ -58,10 +58,20 @@
                     </div>
                     <div class="column3 col-lg-2" sytle="height: 100%; display: table-row;">
                         <div class="row" sytle="height: 100%; display: table-row;">
+                            <table>
+                                <tr>
                             <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
+                            </tr>
+                             <tr>
                             <h4 class="name">Zlatan Ibrahimović</h4>
+                            </tr>
+                            <tr>
                             <h4 class="role">Moderator</h4>
+                            </tr>
+                            <tr>
                             <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
+                            </tr>
+                            </table>
                         </div>
                     </div>
             </div>
