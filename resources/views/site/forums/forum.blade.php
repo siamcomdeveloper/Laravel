@@ -27,7 +27,7 @@
     </header>
     
     <section id="main">
-       {{ $name. ' '. $last_name }}
+       {{ $page }}
         @foreach($posts as $post)
             <div id="style-well{{$post['id']%2}}" class="well">
                 <div class="row">
