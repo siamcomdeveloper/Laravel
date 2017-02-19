@@ -22,10 +22,10 @@ Route::get('/', function (){
     
     //$author = $authors[0]; // first object in "data" array - Jack
     //return $author['id']; // Jack's name
-
-    foreach($authors as $author){
+    echo $authors[0]['id'];
+    /*foreach($authors as $author){
       echo $author['id'] . $author['name'] . $author['role'] . $author['place'] . $author['avatar_url'] . '<br>';
-    }
+    }*/
 });
 
 //Use sometime
