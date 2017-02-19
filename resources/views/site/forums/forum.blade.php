@@ -27,7 +27,7 @@
     </header>
     <section id="main">
         @foreach($objs as $row){
-           {{ $row[0]['id'] }}
+           {{ $row['id'] }}
         }
         <div id="style-well1" class="well">
             <div class="row">
