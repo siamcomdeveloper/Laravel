@@ -27,7 +27,8 @@ for($i = 0; $i < sizeof($input); $i++){
         $Step += $num;
     }
     else {
-        return "input invalid" . "\r\n";
+        echo "input invalid" . "\r\n";
+        exit;
     }
 }
 
