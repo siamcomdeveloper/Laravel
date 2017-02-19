@@ -60,7 +60,7 @@
     }
     
     #style-well2{
-        background-color: #AEAEAE;
+        background-color: #F2F4F6;
     }
     
     .topic-img{
@@ -104,7 +104,7 @@
     }
     
     .column2{
-        border-right: solid 1px gray;
+        border-right: solid 1px #a4aaae;
     }
     
     .column3{
