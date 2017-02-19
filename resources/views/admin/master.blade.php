@@ -35,7 +35,7 @@
         font-weight: bold !important;
         font-family: cursive, sans-serif !important;
         color: black !important;
-        font-size: 20px;
+        font-size: 1.3em;
     }
     
     .pagination>li.active>a {
