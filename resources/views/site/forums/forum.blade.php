@@ -27,8 +27,8 @@
     </header>
     
     <section id="main">
+        {{ $page }}
         @foreach($posts as $post)
-           @if($post['id']>(8*($page-1)) && $post['id']<(9*$page))<!-- page process with page parameter -->
             <div id="style-well{{$post['id']%2}}" class="well">
                 <div class="row">
                     <div class="column1 col-lg-2">
@@ -49,7 +49,6 @@
                     </div>
                 </div>
             </div>
-           @endif
         @endforeach
     </section>
     <footer>

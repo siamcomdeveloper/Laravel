@@ -49,7 +49,7 @@ Route::get('/forums/{page?}', function ($page=1) {
     $posts['posts'] = $objs;
     
     $data['page'] = $page;
-    dd($page);
+    //dd($page);
     //set data to view
     return view('site.forums.forum',$authors,$posts,$data);
         
