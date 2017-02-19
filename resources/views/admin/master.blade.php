@@ -112,9 +112,19 @@
     }
     
     .avatar-img{
-       height : 140px;
-       width  : 140px;
+       height : 100px;
+       width  : 100px;
+       text-align: center;
     }
+    
+    .role{
+       text-align: center;
+    }
+    
+    .place{
+       text-align: center;
+    }
+    
 </style>
 </head>
 
