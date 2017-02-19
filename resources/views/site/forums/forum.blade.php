@@ -65,7 +65,7 @@
                         <li><a href="{{url('/forums/'.$i)}}">{{$i}}</a></li>
                     @endif
                @endfor
-               @if(@page < $allpage)
+               @if(@page <= $allpage)
                     <li><a href="{{url('/forums/'.($page+1))}}">Next</a></li>
                @endif
             </ul>
