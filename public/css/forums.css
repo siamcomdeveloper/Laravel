@@ -22,8 +22,8 @@
     }
     
     .well{
-       margin: 20px;
-       box-shadow: 3px 3px 10px darkgray;
+       margin: 20px !important;
+       box-shadow: 3px 3px 10px darkgray !important;
     }
     
     #style-well1{
@@ -50,14 +50,14 @@
     .media-heading{
        padding-bottom: 10px;
        font-size: 1.6em;
-       font-weight: bold;
+       font-weight: bold !important;
        font-family: Arial Narrow, sans-serif;
     }
     
     .post-body{
        padding-bottom: 10px;
        font-size: 1.3em;
-       font-weight: bold;
+       font-weight: bold !important;
        font-family: Arial Narrow, sans-serif;
     }
     
@@ -69,8 +69,8 @@
         font-family: Arial Narrow, sans-serif;
     }
     
-    .column3{
-        border-left: solid 1px rgba(0, 0, 0, .1);
+    .column2{
+        border-right: solid 1px rgba(0, 0, 0, .1);
     }
     
     .avatar-img{
