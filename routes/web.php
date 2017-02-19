@@ -48,12 +48,10 @@ Route::get('/forums/{page?}', function ($page=1) {
     
     $posts['posts'] = $objs;
     
-    $data['page'] = $page;
-    $data['name'] = 'Siam';
-    $data['last_name'] = 'Nganphairojsakun';
+    //$data['page'] = $page;
     //dd($page);
     //set data to view
-    return view('site.forums.forum',$data,$authors,$posts);
+    return view('site.forums.forum',$authors,$posts)->with('page',$page);
         
     /*$objs = loadJSON('authors');
     $data['authors'] = $objs;
