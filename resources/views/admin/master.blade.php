@@ -114,6 +114,10 @@
     .avatar-img{
        height : 100px;
        width  : 100px;
+       align: center;
+    }
+    
+    .name{
        text-align: center;
     }
     
