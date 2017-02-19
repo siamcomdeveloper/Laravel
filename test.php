@@ -1,5 +1,4 @@
 <?php
-function arguments($argv) {
 $answerTable = array ( 0 => array ( "x" =>  0, "y" =>  1, "direction" => "North"),
                        1 => array ( "x" =>  1, "y" =>  1, "direction" => "North East"),
                        2 => array ( "x" =>  1, "y" =>  0, "direction" => "East"),
@@ -18,8 +17,7 @@ Wx : Step + x;
 equation; find direction & position
 index = Step % 8;
 */
-
-echo $argv . "\r\n";
+echo $argv[1] . "\r\n";
 
 /*
 //preg_match($pattern, $subject)
@@ -32,5 +30,4 @@ if (preg_match('/[0-9]+$/', $line)) {
 echo $answerTable[0]["x"] . "\r\n";
 echo $answerTable[0]["y"] . "\r\n";
 echo $answerTable[7]["direction"] . "\r\n";
-}
 ?>
