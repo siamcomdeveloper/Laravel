@@ -40,7 +40,7 @@ for($i = 0; $i < strlen($input); $i++){
             else{
                 echo $num . "\r\n";
                 $Step += $num;
-                break;
+                continue;
             }
         }
     }
