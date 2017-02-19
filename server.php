@@ -1,21 +1,36 @@
 <?php
+$answerTable = array ( 0 => array ( "x" =>  0, "y" =>  1, "direction" => "North"),
+                       1 => array ( "x" =>  1, "y" =>  1, "direction" => "North East"),
+                       2 => array ( "x" =>  1, "y" =>  0, "direction" => "East"),
+                       3 => array ( "x" =>  1, "y" => -1, "direction" => "South East"),
+                       4 => array ( "x" =>  0, "y" => -1, "direction" => "South"),
+                       5 => array ( "x" => -1, "y" => -1, "direction" => "South West"),
+                       6 => array ( "x" => -1, "y" =>  0, "direction" => "West"),
+                       7 => array ( "x" => -1, "y" =>  1, "direction" => "North West")
+                );
+/*
+Conditions;
+L : Step - 2;
+R : Step + 2;
+Wx : Step + x;
 
-/**
- * Laravel - A PHP Framework For Web Artisans
- *
- * @package  Laravel
- * @author   Taylor Otwell <taylor@laravel.com>
- */
+equation; find direction & position
+index = Step % 8;
+*/
 
-$uri = urldecode(
-    parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
-);
-
-// This file allows us to emulate Apache's "mod_rewrite" functionality from the
-// built-in PHP web server. This provides a convenient way to test a Laravel
-// application without having installed a "real" web server software here.
-if ($uri !== '/' && file_exists(__DIR__.'/public'.$uri)) {
-    return false;
+for ($i=0; $i < 3; $i++) {
+        $line = readline("Command: ");
+        readline_add_history($line);
 }
-
-require_once __DIR__.'/public/index.php';
+/*
+//preg_match($pattern, $subject)
+if (preg_match('/[0-9]+$/', $line)) {
+  // contains only 0-9
+} else {
+  // contains other stuff
+}
+*/
+echo $answerTable[0]["x"] . "\r\n";
+echo $answerTable[0]["y"] . "\r\n";
+echo $answerTable[7]["direction"];
+?>
