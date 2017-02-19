@@ -104,7 +104,7 @@
     }
     
     .column2{
-        border-right: solid 1px rgba(0, 0, 0, .5);
+        border-right: solid 1px rgba(0, 0, 0, .1);
     }
     
     .column3{
