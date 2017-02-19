@@ -27,7 +27,7 @@
     </header>
     
     <section id="main">
-       {{ $page }}
+       {{ $page . ',' , $allpage}}
         @foreach($posts as $post)
             @if($post['id']>(8*($page-1)) && $post['id']<(9*$page))<!-- page process with page parameter -->
                 <div id="style-well{{$post['id']%2}}" class="well">
@@ -56,13 +56,19 @@
     <footer>
         <nav aria-label="Page navigation" class="text-center">
             <ul class="pagination">
-                
-               {{url('admin/blog/'.$row->id.'/edit')}}
-                
-               <li><a href="#">Previous</a></li>
-               <li class="active"><a href="#">1</a></li>
-               <li><a href="{{url('/forums/'.$page)}}">2</a></li>
-               <li><a href="#">Next</a></li>
+               @if($page > 1)
+                    <li><a href="{{url('/forums/'.($page-1)}">Previous</a></li>
+               @endif
+               @for($i = 1 ; $i <= $allpage ; $i++)
+                    @if($page == $i)
+                        <li class="active"><a href="#">$i</a></li>
+                    @else
+                        <li><a href="{{url('/forums/'.$page)}}">$i</a></li>
+                    @endif
+               @endfor
+               @if(@page < $allpage)
+                    <li><a href="{{url('/forums/'.($page+1)}">Next</a></li>
+               @endif
             </ul>
         </nav>
         <link rel="stylesheet" href="{{ asset('bootstrap/js/bootstrap.min.js') }}">

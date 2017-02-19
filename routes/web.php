@@ -49,10 +49,17 @@ Route::get('/forums/{page?}', function ($page=1) {
     $posts['posts'] = $objs;
     
     $total = sizeof($objs);
+    
+    $display_page = 8;
+    //$pluspage = $total%$display_page;
+    //if(pluspage > 0){ pluspage = 1; }
+    //else { pluspage = 0; }
+    $allpage = Math.floor($total/$display_page);
+                                 
     //$data['page'] = $page;
-    dd($total);
+    //dd($total);
     //set data to view
-    return view('site.forums.forum',$authors,$posts)->with('page',$page)->with('total',$total);
+    return view('site.forums.forum',$authors,$posts)->with('page',$page)->with('allpage',$allpage)->with('display_page',$display_page);
         
     /*$objs = loadJSON('authors');
     $data['authors'] = $objs;
