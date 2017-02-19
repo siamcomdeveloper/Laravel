@@ -28,8 +28,6 @@
     
     <section id="main">
         @foreach($posts as $post)
-            {{ $post['id'] }} <br>
-            {{ $post['author_id'] }} <br>
             <div id="style-well{{$post['id']%2}}" class="well">
                 <div class="row">
                     <div class="column1 col-lg-2">
@@ -42,10 +40,10 @@
                     </div>
                     <div class="column3 col-lg-2">
                         <table class="table">
-                            <tr><img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne"></tr>
+                            <tr><img class="avatar-img img-circle" src="{{ $authors[($post['author_id']-1)]['avatar_url'] }}"></tr>
                             <tr><h4 class="name">{{ $authors[($post['author_id']-1)]['name'] }}</h4></tr>
-                            <tr><h4 class="role">Registered user</h4></tr>
-                            <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>New York</span></p></tr>
+                            <tr><h4 class="role">{{ $authors[($post['author_id']-1)]['role'] }}</h4></tr>
+                            <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>{{ $authors[($post['author_id']-1)]['place'] }}</span></p></tr>
                         </table>
                     </div>
                 </div>
