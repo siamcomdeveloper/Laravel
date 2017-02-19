@@ -11,6 +11,10 @@ equation; find direction & position
 index anserTable = Step % 8;
 */
 
+for($i = 0; $i < sizeof($input); $i++){
+    echo $input[$i] . "\r\n";
+}
+
 $Step = 0;
 for($i = 0; $i < sizeof($input); $i++){
     if ($input[$i] == "R") {
