@@ -2,6 +2,7 @@
 $input = $argv[1];
 
 echo $input . "\r\n";
+echo sizeof($input) . "\r\n";
 /*
 Conditions;
 L : Step - 2;
