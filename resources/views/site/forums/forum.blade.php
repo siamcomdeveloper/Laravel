@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="{{ asset('css/forums.css') }}">
         <p class="forumsHead">MAQE Forums</p>
         <p class="forumsSubtitle">Subtitle</p>
-        <p class="forumsPosts">Poststt</p>
+        <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
         <div id="style-well1" class="well">
@@ -37,12 +37,12 @@
                     <p class="post-time"><span><i class="glyphicon glyphicon-time"></i>  {{time_elapsed_string('2016-11-15 17:01:15')}} </span></li>
                 </div>
                 <div class="column3 col-lg-2">
-                    <div class="row">
-                        <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne">
-                        <h4 class="name">Jason Bourne</h4>
-                        <h4 class="role">Registered user</h4>
-                        <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>New York</span></p>
-                    </div>
+                    <table class="table">
+                        <tr><img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne"></tr>
+                        <tr><h4 class="name">Jason Bourne</h4></tr>
+                        <tr><h4 class="role">Registered user</h4></tr>
+                        <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>New York</span></p></tr>
+                    </table>
                 </div>
             </div>
         </div>
@@ -57,20 +57,12 @@
                         <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }}</span></p>
                     </div>
                     <div class="column3 col-lg-2">
-                            <table class="table" style="border: solid 1px black">
-                                <tr>
-                            <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
-                            </tr>
-                             <tr>
-                            <h4 class="name">Zlatan Ibrahimović</h4>
-                            </tr>
-                            <tr>
-                            <h4 class="role">Moderator</h4>
-                            </tr>
-                            <tr>
-                            <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
-                            </tr>
-                            </table>
+                        <table class="table">
+                            <tr><img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan"></tr>
+                            <tr><h4 class="name">Zlatan Ibrahimović</h4></tr>
+                            <tr><h4 class="role">Moderator</h4></tr>
+                            <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p></tr>
+                        </table>
                     </div>
             </div>
         </div>
