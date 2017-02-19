@@ -58,7 +58,7 @@
                     </div>
                     <div class="column3 col-lg-2" sytle="height: 100%; display: table-row;">
                         <div class="row" sytle="height: 100%; display: table-row;">
-                            <table>
+                            <table style="border: 1px">
                                 <tr>
                             <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
                             </tr>
