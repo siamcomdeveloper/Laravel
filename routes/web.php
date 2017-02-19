@@ -24,7 +24,7 @@ Route::get('/', function (){
     //return $author['id']; // Jack's name
 
     foreach($authors as $author){
-        echo $author['id'] . $author['name'] . $author['role'] . $author['place'] . $author['avatar_url'] . '<br>';
+      echo $author->id . $author['name'] . $author['role'] . $author['place'] . $author['avatar_url'] . '<br>';
     }
 });
 
@@ -38,7 +38,8 @@ Route::get('/extend', 'BlogController@extend');
 Route::resource('/admin/blog','Admin\BlogController');
 
 Route::get('/forums', function () {
-    return view('site.forums.forum');
+    $authors = loadJSON('authors');
+    return view('site.forums.forum')->with('authors',$authors);
 });
 
 /*Route::get('/', function () {
