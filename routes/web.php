@@ -19,7 +19,7 @@
 Route::get('/', function (){ 
     //return myfunc();
     $authors = loadJSON('authors');
-    
+    dd($authors);
     //$author = $authors[0]; // first object in "data" array - Jack
     //return $author['id']; // Jack's name
     echo $authors[0]['name'] . '<br>';
@@ -40,7 +40,7 @@ Route::resource('/admin/blog','Admin\BlogController');
 
 Route::get('/forums', function () {
     $objs = loadJSON('authors');//Blog::all();
-    dd($objs);
+    //dd($objs);
     $data['objs'] = $objs[0];
         //set data to view
     return view('admin.list.blog',$data);
