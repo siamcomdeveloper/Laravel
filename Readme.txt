@@ -1,0 +1,1 @@
+I deleted other files and folders in Laravel because I did not do anything with that and easy for you to check. :)

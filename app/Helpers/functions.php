@@ -1,17 +1,10 @@
 <?php
-function myfunc(){
-    return 'Siam';
-}
-
 function loadJSON($filename) {
-    $path = storage_path() . "/json/${filename}.json"; // ie: /var/www/laravel/app/storage/json/filename.json
+    $path = storage_path() . "/json/${filename}.json";
     if (!File::exists($path)) {
         throw new Exception("Invalid File");
     }
-    $content = json_decode(file_get_contents($path), true); 
-    //$file = File::get($path); // string
-    // Verify Validate JSON?
-    // Your other Stuff
+    $content = json_decode(file_get_contents($path), true);
     return $content;
 }
 
