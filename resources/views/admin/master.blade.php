@@ -33,7 +33,7 @@
         margin: 0 5px;
         border: 0 !important;
         font-weight: bold !important;
-        font-family: cursive, sans-serif !important;
+        font-family: Arial Narrow, sans-serif;
         color: black !important;
     }
     
@@ -96,7 +96,7 @@
         font-style: italic;
         font-weight: bold;
         font-size: 1.2em;
-        font-family: Arial, sans-serif;
+        font-family: Arial Narrow, sans-serif;
     }
     
     .column1{
