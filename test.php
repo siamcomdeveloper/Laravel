@@ -31,16 +31,18 @@ for($i = 0; $i < strlen($input); $i++){
     }
     else if($input[$i] == "W"){
         echo "W" . "\r\n";
-        $num = "";
-        for($j = $i; $j < strlen($input); $j++){
-            if (preg_match('/[0-9]+$/', $input[$j])){
-                $num .= $input[$j];
-                $i++;
-            }
-            else{
-                echo $num . "\r\n";
-                $Step += $num;
-                continue;
+        if( ($i+1) < strlen($input) ){
+            $num = "";
+            for($j = $i+1; $j < strlen($input); $j++){
+                if (preg_match('/[0-9]+$/', $input[$j])){
+                    $num .= $input[$j];
+                    $i++;
+                }
+                else{
+                    echo $num . "\r\n";
+                    $Step += $num;
+                    break;
+                }
             }
         }
     }
