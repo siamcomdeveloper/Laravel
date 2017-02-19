@@ -33,8 +33,9 @@
         margin: 0 5px;
         border: 0 !important;
         font-weight: bold !important;
-        font-family: cursive, sans-serif !important
+        font-family: cursive, sans-serif !important;
         color: black !important;
+        font-size: 1.3em;
     }
     
     .pagination>li.active>a {
