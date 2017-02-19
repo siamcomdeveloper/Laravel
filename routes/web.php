@@ -38,7 +38,7 @@ Route::get('/extend', 'BlogController@extend');
 //Use a lot resource(View,Controller)
 Route::resource('/admin/blog','Admin\BlogController');
 
-Route::get('/forums/{page?}', function ($page=3) {
+Route::get('/forums/{page?}', function ($page=1) {
     
     $objs = loadJSON('authors');
     
@@ -47,10 +47,12 @@ Route::get('/forums/{page?}', function ($page=3) {
     $objs = loadJSON('posts');
     
     $posts['posts'] = $objs;
+    
+    $total = sizeof($objs);
     //$data['page'] = $page;
-    //dd($page);
+    dd($total);
     //set data to view
-    return view('site.forums.forum',$authors,$posts)->with('page',$page);
+    return view('site.forums.forum',$authors,$posts)->with('page',$page)->with('total',$total);
         
     /*$objs = loadJSON('authors');
     $data['authors'] = $objs;
