@@ -114,7 +114,8 @@
     .avatar-img{
        height : 100px;
        width  : 100px;
-       align: center;
+       margin-right: auto;
+       margin-left: auto;
     }
     
     .name{
