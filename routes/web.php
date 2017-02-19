@@ -49,6 +49,10 @@ Route::get('/forums/{page?}', function ($page=1) {
     $posts['posts'] = $objs;
     
     $data['page'] = $page;
+    $data['name'] = 'Siam';
+    $data['last_name'] = 'Nganphairojsakun';
+    return view('about',$data);
+    
     //dd($page);
     //set data to view
     return view('site.forums.forum',$authors,$posts,$data);
