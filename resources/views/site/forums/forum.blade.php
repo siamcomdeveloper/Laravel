@@ -61,9 +61,9 @@
                @endif
                @for($i = 1 ; $i <= $allpage ; $i++)
                     @if($page == $i)
-                        <li class="active"><a href="#">$i</a></li>
+                        <li class="active"><a href="#">{{$i}}</a></li>
                     @else
-                        <li><a href="{{url('/forums/'.$page)}}">$i</a></li>
+                        <li><a href="{{url('/forums/'.$page)}}">{{$i}}</a></li>
                     @endif
                @endfor
                @if(@page < $allpage)
