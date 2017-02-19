@@ -98,6 +98,11 @@
         font-size: 1.2em;
         font-family: Arial, sans-serif;
     }
+    
+    .column2{
+        background-color: blue;
+    }
+    
 </style>
 </head>
 
