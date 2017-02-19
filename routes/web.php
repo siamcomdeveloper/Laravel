@@ -41,11 +41,11 @@ Route::get('/forums', function () {
     //$objs = Blog::all();
     $objs = loadJSON('authors');
     //$data['objs'] = $objs;
-    $authors['objs'] = $objs;
+    $data['authors'] = $objs;
     //dd($objs);
     //set data to view
     //return view('admin.list.blog',$data);
-    return view('site.forums.forum',$authors);
+    return view('site.forums.forum',$data);
 });
 
 /*Route::get('/', function () {
