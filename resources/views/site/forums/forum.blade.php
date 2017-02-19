@@ -7,6 +7,12 @@
     main{
         padding: 50px;
     }
+    header{
+        padding: 50px;
+    }
+    footer{
+        padding: 50px;
+    }
 </style>
 </head>
 
