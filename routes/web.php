@@ -29,6 +29,10 @@ Route::get('/extend', 'BlogController@extend');
 //Use a lot resource(View,Controller)
 Route::resource('/admin/blog','Admin\BlogController');
 
+Route::get('/forums', function () {
+    return view('site.forums.forum');
+});
+
 /*Route::get('/', function () {
     return view('welcome');
 });*/
