@@ -27,7 +27,6 @@
     </header>
     
     <section id="main">
-       {{ $page . ',' . $allpage}}
         @foreach($posts as $post)
             @if($post['id']>(8*($page-1)) && $post['id']<(9*$page))<!-- page process with page parameter -->
                 <div id="style-well{{$post['id']%2}}" class="well">
@@ -63,7 +62,7 @@
                     @if($page == $i)
                         <li class="active"><a href="#">{{$i}}</a></li>
                     @else
-                        <li><a href="{{url('/forums/'.$page)}}">{{$i}}</a></li>
+                        <li><a href="{{url('/forums/'.$i)}}">{{$i}}</a></li>
                     @endif
                @endfor
                @if(@page < $allpage)
