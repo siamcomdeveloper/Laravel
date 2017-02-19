@@ -1,24 +1,19 @@
-    .pagination > li > a, .pagination > li > span {
-        border-radius: 50% !important;
-        margin: 0 5px;
-        border: 0 !important;
-        font-weight: bold !important;
-        font-family: cursive, sans-serif !important;
-        color: black !important;
-        font-size: 1.1em;
+    .forumsHead{
+        font-weight: bold;
+        font-size: 2.5em;
+        font-family: Arial Narrow, sans-serif;
     }
     
-    .pagination>li.active>a {
-        background: red;
-        color: white !important;
-     }
-     
-    .pagination {
-        margin: 0;
+    .forumsSubtitle{
+        font-weight: bold;
+        font-size: 2em;
+        font-family: Arial Narrow, sans-serif;
     }
     
-    .blog{
-        padding: 25px;
+    .forumsPosts{
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: Arial Narrow, sans-serif;
     }
     
     .well{
@@ -35,16 +30,8 @@
     }
     
     .topic-img{
-       height : 140px;
+       height : 150px;
        width  : 200px;
-    }
-    
-    .pull-left{
-       height: 200px;
-    }
-    
-    .media-body{
-       padding-left: 10px;
     }
     
     .media-heading{
@@ -101,20 +88,21 @@
        align: bottom;
     }
     
-    .forumsHead{
-        font-weight: bold;
-        font-size: 2.5em;
-        font-family: Arial Narrow, sans-serif;
+    .pagination > li > a, .pagination > li > span {
+        border-radius: 50% !important;
+        margin: 0 5px;
+        border: 0 !important;
+        font-weight: bold !important;
+        font-family: cursive, sans-serif !important;
+        color: black !important;
+        font-size: 1.1em;
     }
     
-    .forumsSubtitle{
-        font-weight: bold;
-        font-size: 2em;
-        font-family: Arial Narrow, sans-serif;
-    }
-    
-    .forumsPosts{
-        font-weight: bold;
-        font-size: 1.5em;
-        font-family: Arial Narrow, sans-serif;
+    .pagination>li.active>a {
+        background: red;
+        color: white !important;
+     }
+     
+    .pagination {
+        margin: 0;
     }
