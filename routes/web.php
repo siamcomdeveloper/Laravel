@@ -24,7 +24,7 @@ Route::get('/', function (){
     //return $author['id']; // Jack's name
 
     foreach($authors as $author){
-        echo $author['id'] . '<br>';
+        echo $author['id'] . $author['name'] . $author['rple'] . $author['place'] . $author['avatar_url'] . '<br>';
     }
 });
 
