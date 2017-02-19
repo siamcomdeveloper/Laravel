@@ -146,7 +146,15 @@
                         <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }}</span></p>
                     </div>
                     <div class="column3 col-lg-2">
-                        <img class="topic-img" src="http://lorempixel.com/320/240?random3">
+                        <div class="row">
+                            <div class="row1 col-lg-2">
+                                <img class="topic-img" src="http://lorempixel.com/160/120?random3">
+                            </div>
+                            <div class="row2 col-lg-2">row2</div>
+                            <div class="row3 col-lg-2">row3</div>
+                            <div class="row4 col-lg-2">row4</div>
+                        </div>
+                        
                     </div>
             </div>
     </div>
