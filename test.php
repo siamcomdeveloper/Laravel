@@ -34,8 +34,11 @@ for($i = 0; $i < strlen($input); $i++){
         if( ($i+1) < strlen($input) ){
             $num = "";
             for($j = $i+1; $j < strlen($input); $j++){
+                echo  "input[j] = " . $input[$j] . "\r\n";
                 if (preg_match('/[0-9]+$/', $input[$j])){
+                    echo "match\r\n";
                     $num .= $input[$j];
+                    echo "num = " . $num . "\r\n";
                     $i++;
                 }
                 else{
