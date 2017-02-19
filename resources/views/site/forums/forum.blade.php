@@ -7,13 +7,28 @@
     main{
         padding: 50px;
     }
-    header{
-        padding-left: 20px;
-        padding-top: 10px;
+    /*header{
+        padding : 25px;
+        background: red;
+        color: #FFF;
+        text-align: center;
     }
     footer{
-        padding: 50px;
+        padding: 25px;
+        background: blue;
+        color: #FFF;
+        text-align: center;
+    }*/
+    section{
+        padding: 25px;
     }
+    .fl{
+        float: left;
+    }
+    #edit{
+        margin-right: 10px;
+    }
+    
 </style>
 </head>
 
@@ -21,11 +36,11 @@
     <header>
         <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/forums.css') }}">
-        <p class="forumsHead">MAQE Forums</p>
-        <p class="forumsSubtitle">Subtitle</p>
-        <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
+        @yield('content')
+    </section>
+    <footer>
         <div id="style-well1" class="well">
             <div class="row">
                 <div class="column1 col-lg-2">
@@ -65,9 +80,7 @@
                         </div>
                     </div>
             </div>
-        </div>
-    </section>
-    <footer>
+    </div>
         <nav aria-label="Page navigation" class="text-center">
             <ul class="pagination">
                <li><a href="#">Previous</a></li>
