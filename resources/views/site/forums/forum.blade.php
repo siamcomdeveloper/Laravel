@@ -37,7 +37,7 @@
                     <p class="post-time"><span><i class="glyphicon glyphicon-time"></i>  {{time_elapsed_string('2016-11-15 17:01:15')}} </span></li>
                 </div>
                 <div class="column3 col-lg-2">
-                    <div class="row" sytle="height: 100%; display: table-row;">
+                    <div class="row">
                         <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne">
                         <h4 class="name">Jason Bourne</h4>
                         <h4 class="role">Registered user</h4>
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div id="style-well2" class="well">
-            <div class="row">
+            <div class="row" sytle="height: 100%; display: table-row;">
                     <div class="column1 col-lg-2">
                         <img class="topic-img" src="http://lorempixel.com/320/240?random3">
                     </div>
