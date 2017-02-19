@@ -106,7 +106,8 @@
     .column2{
         border-left: solid 1px gray;
         border-right: solid 1px gray;
-        padding-right: 20px;
+        padding-left: 20px;
+        padding-right: -20px;
     }
     
     .column3{
