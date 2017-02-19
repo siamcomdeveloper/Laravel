@@ -100,18 +100,18 @@
     
     .forumsHead{
         font-weight: bold;
-        font-size: 2em;
+        font-size: 4em;
         font-family: Arial Narrow, sans-serif;
     }
     
     .forumsSubtitle{
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 2em;
         font-family: Arial Narrow, sans-serif;
     }
     
     .forumsPosts{
         font-weight: bold;
-        font-size: 1.1em;
+        font-size: 1.5em;
         font-family: Arial Narrow, sans-serif;
     }
