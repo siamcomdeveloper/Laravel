@@ -28,125 +28,14 @@
     #edit{
         margin-right: 10px;
     }
-    .pagination > li > a, .pagination > li > span {
-        border-radius: 50% !important;
-        margin: 0 5px;
-        border: 0 !important;
-        font-weight: bold !important;
-        font-family: cursive, sans-serif !important;
-        color: black !important;
-        font-size: 1.1em;
-    }
-    
-    .pagination>li.active>a {
-        background: red;
-        color: white !important;
-     }
-     
-    .pagination {
-        margin: 0;
-    }
-    
-    .blog{
-        padding: 25px;
-    }
-    
-    .well{
-       margin: 20px !important;
-       box-shadow: 3px 3px 10px darkgray !important;
-    }
-    
-    #style-well1{
-        background-color: white;
-    }
-    
-    #style-well2{
-        background-color: #F2F4F6;
-    }
-    
-    .topic-img{
-       height : 140px;
-       width  : 200px;
-       
-    }
-    
-    .pull-left{
-       height: 200px;
-    }
-    
-    .media-body{
-       padding-left: 10px;
-    }
-    
-    .media-heading{
-       padding-bottom: 10px;
-       font-size: 1.6em;
-       font-weight: bold !important;
-       font-family: Arial Narrow, sans-serif;
-    }
-    
-    .post-body{
-       padding-bottom: 10px;
-       font-size: 1.3em;
-       font-weight: bold !important;
-       font-family: Arial Narrow, sans-serif;
-    }
-    
-    .post-time{
-        color: darkgray;
-        font-style: italic;
-        font-weight: bold;
-        font-size: 1.2em;
-        font-family: Arial Narrow, sans-serif;
-    }
-    
-    .column1{
-        
-    }
-    
-    .column2{
-        border-right: solid 1px rgba(0, 0, 0, .1);
-    }
-    
-    .column3{
-        
-    }
-    
-    .avatar-img{
-       height : 100px;
-       width  : 100px;
-       display: block;
-       margin-right: auto;
-       margin-left: auto;
-    }
-    
-    .name{
-       margin-top: 20px;
-       text-align: center;
-       color: red;
-    }
-    
-    .role{
-       text-align: center;
-       margin-top: 15px;
-    }
-    
-    .place{
-       margin-top: 15px;
-       text-align: center;
-       font-weight: bold;
-    }
     
 </style>
 </head>
 
 <body>
     <header>
-        <link rel="stylesheet" href="{{ asset('css/forums.css') }}">
         <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
-        <!--
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        -->
+        <link rel="stylesheet" href="{{ asset('css/forums.css') }}">
     </header>
     <section id="main">
         @yield('content')
@@ -204,9 +93,6 @@
             </ul>
         </nav>
         <link rel="stylesheet" href="{{ asset('bootstrap/js/bootstrap.min.js') }}">
-        <!--
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        -->
   </footer>
 </body>
 
