@@ -34,8 +34,8 @@
 
 <body>
     <header>
-        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/forums.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
         </header>
     <section id="main">
         @yield('content')
