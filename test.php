@@ -21,9 +21,11 @@ for($i = 0; $i < sizeof($input); $i++){
     }
     else if($input[$i] == "W"){
         $num = "";
-        for($j = $i+1; $j < sizeof($input); $j++)
-            if (preg_match('/[0-9]+$/', $input[$j]))
+        for($j = $i+1; $j < sizeof($input); $j++){
+            if (preg_match('/[0-9]+/', $input[$j])){
                 $num .= $input[$j];
+            }
+        }
         $Step += $num;
     }
     else {
