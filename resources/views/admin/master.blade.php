@@ -60,7 +60,7 @@
     }
     
     #style-well2{
-        background-color: #F2F4F6;
+        background-color: #AEAEAE;
     }
     
     .topic-img{
