@@ -35,7 +35,7 @@ for($i = 0; $i < strlen($input); $i++){
         for($j = $i+1; $j < strlen($input); $j++){
             if (preg_match('/[0-9]+$/', $input[$j])){
                 $num .= $input[$j];
-                echo $num;
+                echo $num . "\r\n";
             }
         }
         $Step += $num;
