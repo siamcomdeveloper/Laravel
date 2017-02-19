@@ -2,7 +2,7 @@
 $input = $argv[1];
 
 echo $input . "\r\n";
-echo sizeof($input) . "\r\n";
+echo strlen($input) . "\r\n";
 /*
 Conditions;
 L : Step - 2;
@@ -13,12 +13,14 @@ equation; find direction & position
 index anserTable = Step % 8;
 */
 
-for($i = 0; $i < sizeof($input); $i++){
+for($i = 0; $i < strlen($input); $i++){
     echo $input[$i] . "\r\n";
 }
 
+echo "\r\n";
+
 $Step = 0;
-for($i = 0; $i < sizeof($input); $i++){
+for($i = 0; $i < strlen($input); $i++){
     if ($input[$i] == "R") {
         echo "R" . "\r\n";
         $Step += 2;
@@ -30,7 +32,7 @@ for($i = 0; $i < sizeof($input); $i++){
     else if($input[$i] == "W"){
         echo "W" . "\r\n";
         $num = "";
-        for($j = $i; $j < sizeof($input); $j++){
+        for($j = $i; $j < strlen($input); $j++){
             if (preg_match('/[0-9]+$/', $input[$j])){
                 $num .= $input[$j];
                 echo $num;
