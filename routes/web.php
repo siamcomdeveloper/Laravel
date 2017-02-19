@@ -48,16 +48,13 @@ Route::get('/forums/{page?}', function ($page=1) {
     
     $posts['posts'] = $objs;
     
-    //Algorithm for calculate amount of page
     $total = sizeof($objs);
-    $display_page = 8;
-    //calculate remain post of last page
-    $pluspage = $total%$display_page;
-    if ($pluspage > 0) pluspage = 1;
-    else $pluspage = 0;
-    $allpage = floor($total/$display_page) + $pluspage;
-    /////////////////////////////////////
     
+    $display_page = 8;
+    //$pluspage = $total%$display_page;
+    //if(pluspage > 0){ pluspage = 1; }
+    //else { pluspage = 0; }
+    $allpage = floor($total/$display_page);
                                  
     //$data['page'] = $page;
     //dd($total);
