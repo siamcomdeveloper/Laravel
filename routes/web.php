@@ -47,7 +47,6 @@ Route::get('/forums/{page?}', function ($page=1) {
     $objs = loadJSON('posts');
     
     $posts['posts'] = $objs;
-    
     //$data['page'] = $page;
     //dd($page);
     //set data to view

@@ -29,26 +29,28 @@
     <section id="main">
        {{ $page }}
         @foreach($posts as $post)
-            <div id="style-well{{$post['id']%2}}" class="well">
-                <div class="row">
-                    <div class="column1 col-lg-2">
-                            <img class="topic-img" src="{{ $post['image_url'] }}">
-                    </div>
-                    <div class="column2 col-lg-8">
-                        <h4 class="media-heading">{{ $post['title'] }}</h4>
-                        <p class="post-body">{{ $post['body'] }}</p>
-                        <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{time_elapsed_string($post['created_at'])}}</span></li>
-                    </div>
-                    <div class="column3 col-lg-2">
-                        <table class="table">
-                            <tr><img class="avatar-img img-circle" src="{{ $authors[($post['author_id']-1)]['avatar_url'] }}"></tr>
-                            <tr><h4 class="name">{{ $authors[($post['author_id']-1)]['name'] }}</h4></tr>
-                            <tr><h4 class="role">{{ $authors[($post['author_id']-1)]['role'] }}</h4></tr>
-                            <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>{{ $authors[($post['author_id']-1)]['place'] }}</span></p></tr>
-                        </table>
+            @if($post['id']>(8*($page-1)) && $post['id']<(9*$page))<!-- page process with page parameter -->
+                <div id="style-well{{$post['id']%2}}" class="well">
+                    <div class="row">
+                        <div class="column1 col-lg-2">
+                                <img class="topic-img" src="{{ $post['image_url'] }}">
+                        </div>
+                        <div class="column2 col-lg-8">
+                            <h4 class="media-heading">{{ $post['title'] }}</h4>
+                            <p class="post-body">{{ $post['body'] }}</p>
+                            <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{time_elapsed_string($post['created_at'])}}</span></li>
+                        </div>
+                        <div class="column3 col-lg-2">
+                            <table class="table">
+                                <tr><img class="avatar-img img-circle" src="{{ $authors[($post['author_id']-1)]['avatar_url'] }}"></tr>
+                                <tr><h4 class="name">{{ $authors[($post['author_id']-1)]['name'] }}</h4></tr>
+                                <tr><h4 class="role">{{ $authors[($post['author_id']-1)]['role'] }}</h4></tr>
+                                <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>{{ $authors[($post['author_id']-1)]['place'] }}</span></p></tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
         @endforeach
     </section>
     <footer>
