@@ -111,6 +111,10 @@
         
     }
     
+    .avatar-img{
+       height : 140px;
+       width  : 140px;
+    }
 </style>
 </head>
 
@@ -147,7 +151,7 @@
                     </div>
                     <div class="column3 col-lg-2">
                         <div class="row">
-                            <img class="avatar-img" src="https://api.adorable.io/avatars/250/jason-bourne">
+                            <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne">
                             <h4 class="name">Zlatan Ibrahimović</h4>
                             <p class="role">Moderator</p>
                             <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
