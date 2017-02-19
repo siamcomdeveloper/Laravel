@@ -120,17 +120,18 @@
     }
     
     .name{
-       margin-top: 30px;
+       margin-top: 20px;
        text-align: center;
        color: red;
     }
     
     .role{
        text-align: center;
+       margin-top: 20px;
     }
     
     .place{
-       padding-top: 30px;
+       margin-top: 20px;
        text-align: center;
     }
     
