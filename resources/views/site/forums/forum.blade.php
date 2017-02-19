@@ -26,7 +26,7 @@
         <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
-        {{ var_dump($objs) }}
+        {{ var_dump($objs[0]) }}
         <div id="style-well1" class="well">
             <div class="row">
                 <div class="column1 col-lg-2">
