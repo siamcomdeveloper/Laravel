@@ -54,7 +54,7 @@ Route::get('/forums/{page?}', function ($page=1) {
     //$pluspage = $total%$display_page;
     //if(pluspage > 0){ pluspage = 1; }
     //else { pluspage = 0; }
-    $allpage = Math.floor($total/$display_page);
+    $allpage = floor($total/$display_page);
                                  
     //$data['page'] = $page;
     //dd($total);
