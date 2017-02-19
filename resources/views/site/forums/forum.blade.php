@@ -29,7 +29,7 @@
         <!--@foreach($objs as $row){
            {{ $row['id'] }}
         }-->
-        {{ var_dump($objs) }}
+        
         <div id="style-well1" class="well">
             <div class="row">
                 <div class="column1 col-lg-2">
