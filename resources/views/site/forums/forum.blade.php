@@ -57,12 +57,12 @@
                         <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }}</span></p>
                     </div>
                     <div class="column3 col-lg-2">
-                        <div class="row">
+                        
                             <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
                             <h4 class="name">Zlatan Ibrahimović</h4>
                             <h4 class="role">Moderator</h4>
                             <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
-                        </div>
+                        
                     </div>
             </div>
         </div>
