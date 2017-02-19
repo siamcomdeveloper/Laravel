@@ -27,7 +27,7 @@
     </header>
     <section id="main">
         @foreach($authors as $row){
-           {{ $row['id'] }}
+           {{ $row->id }}
         }
         <div id="style-well1" class="well">
             <div class="row">

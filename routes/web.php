@@ -42,7 +42,7 @@ Route::get('/forums', function () {
     $objs = loadJSON('authors');
     //$data['objs'] = $objs;
     $authors['objs'] = $objs;
-    dd($objs);
+    //dd($objs);
     //set data to view
     //return view('admin.list.blog',$data);
     return view('site.forums.forum',$authors);
