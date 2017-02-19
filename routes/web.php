@@ -17,7 +17,8 @@
 //delete = data to delete to database
 
 Route::get('/', function (){ 
-    return myfunc();
+    //return myfunc();
+    return loadJSON('authors');
 });
 
 //Use sometime

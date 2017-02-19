@@ -3,6 +3,18 @@ function myfunc(){
     return 'Siam';
 }
 
+function loadJSON($filename) {
+    $path = storage_path() . "/json/${filename}.json"; // ie: /var/www/laravel/app/storage/json/filename.json
+    if (!File::exists($path)) {
+        throw new Exception("Invalid File");
+    }
+    $content = json_decode(file_get_contents($path), true); 
+    //$file = File::get($path); // string
+    // Verify Validate JSON?
+    // Your other Stuff
+    return $content;
+}
+
 function time_elapsed_string($datetime, $full = false) {
     $now = new DateTime;
     $ago = new DateTime($datetime);
