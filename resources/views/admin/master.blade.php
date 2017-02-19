@@ -34,7 +34,7 @@
         border: 0 !important;
         font-weight: bold !important;
         font-family: Arial Narrow, sans-serif;
-        font-size: 1.2em;
+        font-size: 120%;
         color: black !important;
     }
     
