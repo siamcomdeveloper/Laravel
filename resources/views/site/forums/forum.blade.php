@@ -59,7 +59,7 @@
                @if($page > 1)
                     <li><a href="{{url('/forums/'.($page-1))}}">Previous</a></li>
                @endif
-               @for($i = 1 ; $i <= $allpage+1 ; $i++)
+               @for($i = 1 ; $i <= $allpage ; $i++)
                     @if($page == $i)
                         <li class="active"><a href="#">{{$i}}</a></li>
                     @else
