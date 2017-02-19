@@ -122,7 +122,7 @@
     .name{
        margin-top: 20px;
        text-align: center;
-       color: red;
+       color: darkred;
     }
     
     .role{
@@ -133,6 +133,7 @@
     .place{
        margin-top: 15px;
        text-align: center;
+       font-weight: bold;
     }
     
 </style>
@@ -179,7 +180,7 @@
                     </div>
                     <div class="column3 col-lg-2">
                         <div class="row">
-                            <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne">
+                            <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
                             <h4 class="name">Zlatan Ibrahimović</h4>
                             <h4 class="role">Moderator</h4>
                             <p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>Sweden</span></p>
