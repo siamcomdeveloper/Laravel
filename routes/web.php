@@ -20,12 +20,12 @@ Route::get('/', function (){
     //return myfunc();
     $authors = loadJSON('authors');
     
-    $author = $authors[0]; // first object in "data" array - Jack
-    return $author['id']; // Jack's name
+    //$author = $authors[0]; // first object in "data" array - Jack
+    //return $author['id']; // Jack's name
 
-    /*foreach($authors as $author){
-        echo $author . '<br>;
-    }*/
+    foreach($authors as $author){
+        echo $author['id'] . '<br>';
+    }
 });
 
 //Use sometime
