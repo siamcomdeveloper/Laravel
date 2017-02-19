@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="{{ asset('css/forums.css') }}">
         <p class="forumsHead">MAQE Forums</p>
         <p class="forumsSubtitle">Subtitle</p>
-        <p class="forumsPosts">Posts</p>
+        <p class="forumsPosts">Poststt</p>
     </header>
     <section id="main">
         <div id="style-well1" class="well">
@@ -58,7 +58,7 @@
                     </div>
                     <div class="column3 col-lg-2" sytle="height: 100%; display: table-row;">
                         <div class="row" sytle="height: 100%; display: table-row;">
-                            <table style="border: 1px">
+                            <table style="border: solid 1px black">
                                 <tr>
                             <img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/zlatan">
                             </tr>
