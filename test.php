@@ -1,6 +1,7 @@
 <?php
 $input = $argv[1];
 
+echo $input . "\r\n";
 /*
 Conditions;
 L : Step - 2;
