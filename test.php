@@ -42,6 +42,7 @@ for($i = 0; $i < strlen($input); $i++){
                     $i++;
                 }
                 else{
+                    echo "else\r\n";
                     echo $num . "\r\n";
                     $Step += $num;
                     break;
