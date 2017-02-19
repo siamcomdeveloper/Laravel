@@ -2,10 +2,10 @@
 $input = $argv[1];
 
 /*
-Conditions;
-L : Step - 2;
-R : Step + 2;
-WN : Step + N;
+ * Conditions;
+ * L : Step - 2;
+ * R : Step + 2;
+ * WN : Step + N;
 */
 
 $Step = 0;
@@ -17,8 +17,7 @@ for($i = 0; $i < strlen($input); $i++){
         $Step -= 2;
     }
     else if($input[$i] == "W"){
-        //Check this character is not the last character
-        //Avoid Error array out of lenght
+        //Check this character is not the last character for avoid error array out of lenght.
         if( ($i+1) < strlen($input) ){
             $num = "";
             //Check next character to keep walk(N)
@@ -39,8 +38,28 @@ for($i = 0; $i < strlen($input); $i++){
 }
 
 /*
-Equation to find current position x,y & direction
-index anserTable = Step % 8;
+ * Equation to find current position x,y & direction
+ * index anserTable = Step % 8;
+ * Ex1
+ * php MAQEBot.php RW15RW1
+ * 2+15+2+1 = 20
+ * 20 % 8 = 4
+ * index = 4
+ * X: 0 Y: -1 Direction: South
+ * 
+ * Ex2
+ * php MAQEBot.php W5RW5RW2RW1R
+ * 5+2+5+2+2+2+1+2 = 21
+ * 21 % 8 = 5
+ * index = 5
+ * X: -1 Y: -1 Direction: South West
+ * 
+ * Ex3
+ * php MAQEBot.php RRW11RLLW19RRW12LW1
+ * 2+2+11+2-2-2+19+2+2+12-2+1 = 47
+ * 47 % 8 = 7
+ * index = 7
+ * X: -1 Y: 1 Direction: North West
 */
 $index = $Step % 8;
 
