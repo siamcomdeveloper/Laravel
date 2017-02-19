@@ -27,7 +27,7 @@
     </header>
     
     <section id="main">
-       {{ $page . ',' , $allpage}}
+       {{ $page . ',' . $allpage}}
         @foreach($posts as $post)
             @if($post['id']>(8*($page-1)) && $post['id']<(9*$page))<!-- page process with page parameter -->
                 <div id="style-well{{$post['id']%2}}" class="well">
@@ -59,7 +59,7 @@
                @if($page > 1)
                     <li><a href="{{url('/forums/'.($page-1))}}">Previous</a></li>
                @endif
-               @for($i = 1 ; $i <= $allpage ; $i++)
+               @for($i = 1 ; $i <= $allpage+1 ; $i++)
                     @if($page == $i)
                         <li class="active"><a href="#">{{$i}}</a></li>
                     @else
