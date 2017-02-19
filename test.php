@@ -14,12 +14,15 @@ index anserTable = Step % 8;
 $Step = 0;
 for($i = 0; $i < sizeof($input); $i++){
     if ($input[$i] == "R") {
+        echo "R" . "\r\n";
         $Step += 2;
     }
     else if($input[$i] == "L"){
+        echo "L" . "\r\n";
         $Step -= 2;
     }
     else if($input[$i] == "W"){
+        echo "W" . "\r\n";
         $num = "";
         for($j = $i; $j < sizeof($input); $j++){
             if (preg_match('/[0-9]+$/', $input[$j])){
