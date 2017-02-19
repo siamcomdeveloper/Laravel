@@ -100,17 +100,16 @@
     }
     
     .column1{
-        background-color: red;
+        border-left: solid 1px red;
     }
     
     .column2{
-        background-color: green;
         border-left: solid 1px gray;
         border-right: solid 1px gray;
     }
     
     .column3{
-        background-color: blue;
+        border-left: solid 1px blue;
     }
     
 </style>
