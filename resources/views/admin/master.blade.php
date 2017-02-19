@@ -120,7 +120,7 @@
     }
     
     .name{
-       margin-top: 10px;
+       margin-top: 30px;
        text-align: center;
        color: red;
     }
@@ -130,6 +130,7 @@
     }
     
     .place{
+       padding-top: 30px;
        text-align: center;
     }
     
