@@ -38,7 +38,7 @@
                     <div class="column2 col-lg-8">
                         <h4 class="media-heading">{{ $post['title'] }}</h4>
                         <p class="post-body">{{ $post['body'] }}</p>
-                        <p class="post-time"><span><i class="glyphicon glyphicon-time"></i>  {{time_elapsed_string($post['created_at']}} </span></li>
+                        <p class="post-time"><span><i class="glyphicon glyphicon-time"></i>{{time_elapsed_string($post['created_at'])}}</span></li>
                     </div>
                     <div class="column3 col-lg-2">
                         <table class="table">
