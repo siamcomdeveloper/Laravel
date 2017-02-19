@@ -38,7 +38,7 @@ Route::get('/extend', 'BlogController@extend');
 //Use a lot resource(View,Controller)
 Route::resource('/admin/blog','Admin\BlogController');
 
-Route::get('/forums/{page?}', function ($page=1) {
+Route::get('/forums/{page?}', function ($page=2) {
     
     $objs = loadJSON('authors');
     
