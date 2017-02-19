@@ -100,16 +100,17 @@
     }
     
     .column1{
-        border-left: solid 1px red;
+        
     }
     
     .column2{
         border-left: solid 1px gray;
         border-right: solid 1px gray;
+        margin-right: 30px;
     }
     
     .column3{
-        border-left: solid 1px blue;
+        
     }
     
 </style>
