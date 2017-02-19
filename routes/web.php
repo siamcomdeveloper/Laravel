@@ -39,11 +39,16 @@ Route::get('/extend', 'BlogController@extend');
 Route::resource('/admin/blog','Admin\BlogController');
 
 Route::get('/forums', function () {
-    $objs = loadJSON('authors');//Blog::all();
+    $objs = loadJSON('authors');
+    
+    $authors['authors'] = $objs;
+        
+    $objs = loadJSON('posts');
+    
+    $posts['posts'] = $objs;
     //dd($objs);
-    $data['objs'] = $objs;
-        //set data to view
-    return view('site.forums.forum',$data);
+    //set data to view
+    return view('site.forums.forum',$authors,$posts);
         
     /*$objs = loadJSON('authors');
     $data['authors'] = $objs;

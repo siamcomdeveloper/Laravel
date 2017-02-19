@@ -26,10 +26,10 @@
         <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
-        @foreach($objs as $row)
-            {{ $row['id'] }} <br>
+        @foreach($posts as $post)
+            {{ $post['id'] }} <br>
         @endforeach
-        <div id="style-well1" class="well">
+        <div id="style-well{{$row['id']%2}}" class="well">
             <div class="row">
                 <div class="column1 col-lg-2">
                         <img class="topic-img" src="http://lorempixel.com/320/240?random2">
