@@ -14,9 +14,9 @@
     <header>
         <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/forums.css') }}">
-        <h5>MAQE Forums</h4>
+        <h1>MAQE Forums</h4>
         <h3>Subtitle</h4>
-        <h1>Posts</h4>
+        <p>Posts</p>
     </header>
     <section id="main">
         <div id="style-well1" class="well">
