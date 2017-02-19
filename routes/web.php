@@ -22,11 +22,11 @@ Route::get('/', function (){
     dd($authors);
     //$author = $authors[0]; // first object in "data" array - Jack
     //return $author['id']; // Jack's name
-    echo $authors[0]['name'] . '<br>';
-    echo $authors[3]['place'] . '<br>';
-    /*foreach($authors as $author){
+    //echo $authors[0]['name'] . '<br>';
+    //echo $authors[3]['place'] . '<br>';
+    foreach($authors as $author){
       echo $author['id'] . $author['name'] . $author['role'] . $author['place'] . $author['avatar_url'] . '<br>';
-    }*/
+    }
 });
 
 //Use sometime
@@ -43,7 +43,7 @@ Route::get('/forums', function () {
     //dd($objs);
     $data['objs'] = $objs[0];
         //set data to view
-    return view('admin.list.blog',$data);
+    return view('site.forums.forum',$data);
         
     /*$objs = loadJSON('authors');
     $data['authors'] = $objs;
