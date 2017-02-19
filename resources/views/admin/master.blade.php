@@ -99,8 +99,16 @@
         font-family: Arial, sans-serif;
     }
     
+    .column1{
+        background-color: red;
+    }
+    
     .column2{
-        
+        background-color: green;
+    }
+    
+    .column3{
+        background-color: blue;
     }
     
 </style>
@@ -132,12 +140,12 @@
                     <div class="column1 col-lg-2">
                         <img class="topic-img" src="http://lorempixel.com/320/240?random3">
                     </div>
-                    <div class="column2 col-lg-7">
+                    <div class="column2 col-lg-8">
                         <h4 class="media-heading">When will the concert be held?</h4>
                         <p class="post-body">After day, don't sixth were divide creepeth living him it heaven moveth of male man rule, made gathered cattle after. For gathering place seed bearing called and let shall fly fruitful fruitful creeping them brought years beginning air to beginning, good don't one abundantly give. That were blessed made moving light saw place they're. Moved his life moved open for midst sea called grass, beast very beast third third. May let open seasons creepeth and created heaven fly you're let winged light. Fruit after. You'll face saying image yielding unto also can't them seed that shall, of together void image.</p>
                         <p class="post-time"><span><i class="glyphicon glyphicon-time"></i> {{ time_elapsed_string('2016-11-10 06:33:29') }}</span></p>
                     </div>
-                    <div class="column3 col-lg-3">
+                    <div class="column3 col-lg-2">
                         <img class="topic-img" src="http://lorempixel.com/320/240?random3">
                     </div>
             </div>
