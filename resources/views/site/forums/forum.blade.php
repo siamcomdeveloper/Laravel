@@ -26,7 +26,7 @@
         <p class="forumsPosts">Posts</p>
     </header>
     <section id="main">
-        {{ $objs[0]['id'] }}
+        {{ $objs[0]->['id'] }}
         <!--@foreach($objs as $row){
            {{ $row->id }}
         }-->
