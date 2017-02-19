@@ -43,7 +43,7 @@
                     <div class="column3 col-lg-2">
                         <table class="table">
                             <tr><img class="avatar-img img-circle" src="https://api.adorable.io/avatars/250/jason-bourne"></tr>
-                            <tr><h4 class="name">{{ $authors[0]['name'] }}</h4></tr>
+                            <tr><h4 class="name">{{ $authors[($post['author_id'])]['name'] }}</h4></tr>
                             <tr><h4 class="role">Registered user</h4></tr>
                             <tr><p class="place"><span><i class="glyphicon glyphicon-map-marker"></i>New York</span></p></tr>
                         </table>
